@@ -1,0 +1,77 @@
+{
+	"meta": {
+		"title": "Limpeza & manutenção, desde 2016"
+	},
+	"hero": {
+		"eyebrow": "Limpeza & manutenção · desde 2016",
+		"title": "Limpo.",
+		"nuance": "Ponto final.",
+		"lead": "Para quem repara nos detalhes. De uma casa a uma fábrica, com o mesmo padrão — e sem precisar de o anunciar.",
+		"panelLabel": "Da casa à fábrica",
+		"panelFooter": "Um nome. Um padrão. Qualquer espaço.",
+		"scroll": "Deslize para conhecer"
+	},
+	"statement": {
+		"lead": "Nunca dissemos que somos os melhores.",
+		"nuance": "Os espaços que limpamos dizem-no por nós."
+	},
+	"domains": {
+		"eyebrow": "Cinco domínios",
+		"title": "Do primeiro degrau",
+		"nuance": "à última linha de produção.",
+		"intro": "A marca nunca muda. Muda a escala, a equipa e o equipamento. O padrão é sempre o mesmo."
+	},
+	"method": {
+		"eyebrow": "O Padrão J&M",
+		"title": "Quatro etapas.",
+		"nuance": "Sempre pela mesma ordem.",
+		"intro": "O que transforma uma limpeza num resultado previsível: a mesma sequência, os mesmos registos e a mesma exigência."
+	},
+	"facts": {
+		"since": {
+			"value": "2016",
+			"label": "Ano em que tudo começou, numa casa."
+		},
+		"domains": {
+			"value": "5",
+			"label": "Domínios, da casa à indústria."
+		},
+		"coverage": {
+			"value": "PT",
+			"label": "Operação nacional, por marcação."
+		},
+		"campaigns": {
+			"value": "0",
+			"label": "Campanhas publicitárias. Crescemos por recomendação."
+		}
+	},
+	"story": {
+		"eyebrow": "A história",
+		"title": "Começou por uma casa.",
+		"nuance": "Nunca precisou de anúncios.",
+		"body": "Em 2016, José Miguel limpava casas e entregava obras acabadas. Um cliente, dono de uma fábrica, reparou no trabalho — e fez a pergunta que mudou tudo."
+	},
+	"proof": {
+		"eyebrow": "A prova",
+		"title": "Não pedimos confiança.",
+		"nuance": "Mostramos.",
+		"before": "Antes",
+		"after": "Depois",
+		"beforePlaceholder": "[Fotografia antes]",
+		"afterPlaceholder": "[Fotografia depois]",
+		"sliderLabel": "Arraste para comparar antes e depois",
+		"deliverablesTitle": "Em cada intervenção",
+		"deliverables": {
+			"report": "Relatório assinado",
+			"photos": "Fotografias antes e depois",
+			"log": "Registo do que foi feito",
+			"label": "A etiqueta j&m., discreta"
+		}
+	},
+	"cta": {
+		"eyebrow": "Por marcação",
+		"title": "Está tratado.",
+		"nuance": "Só falta marcar.",
+		"body": "Uma visita, sem compromisso. A proposta segue por escrito, sem letras pequenas."
+	}
+}

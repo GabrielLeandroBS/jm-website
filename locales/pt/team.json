@@ -1,0 +1,66 @@
+{
+	"meta": {
+		"title": "Equipa",
+		"description": "As pessoas por trás da j&m.: nomes próprios, fardas impecáveis e a mesma equipa todas as vezes."
+	},
+	"hero": {
+		"eyebrow": "Equipa",
+		"title": "Nomes próprios.",
+		"nuance": "Sem cargos inflacionados.",
+		"lead": "Quem entra em sua casa ou na sua fábrica é sempre alguém que conhecemos pelo nome — e que o senhor também vai conhecer."
+	},
+	"founder": {
+		"eyebrow": "Fundador",
+		"name": "José Miguel",
+		"role": "CEO e fundador",
+		"bio": "Fundou a j&m. em 2016. Ainda visita pessoalmente os espaços novos antes de cada primeira proposta.",
+		"quote": "Uma fábrica limpa não se nota. Nota-se quando deixa de estar.",
+		"photoAlt": "[Fotografia de José Miguel]"
+	},
+	"roles": {
+		"eyebrow": "A equipa",
+		"title": "Uma equipa por domínio.",
+		"nuance": "Sempre a mesma.",
+		"photoPlaceholder": "[Fotografia]",
+		"operations": {
+			"name": "[Nome]",
+			"role": "Coordenação de operações",
+			"body": "Planeia equipas, horários e materiais para cada intervenção."
+		},
+		"industry": {
+			"name": "[Nome]",
+			"role": "Equipa indústria",
+			"body": "Limpeza técnica de máquinas e linhas de produção."
+		},
+		"homes": {
+			"name": "[Nome]",
+			"role": "Equipa casa & empresas",
+			"body": "Rotinas residenciais e espaços comerciais, fora de horas."
+		},
+		"quality": {
+			"name": "[Nome]",
+			"role": "Verificação e relatórios",
+			"body": "Confere cada trabalho e prepara o relatório final."
+		}
+	},
+	"principles": {
+		"eyebrow": "Como escolhemos",
+		"trust": {
+			"title": "Confiança primeiro",
+			"body": "Referências verificadas e período de acompanhamento antes de trabalhar sozinho."
+		},
+		"training": {
+			"title": "Formação contínua",
+			"body": "Cada domínio tem o seu protocolo. Ninguém improvisa."
+		},
+		"stability": {
+			"title": "Estabilidade",
+			"body": "Contratos e horários justos. Equipas estáveis fazem trabalho estável."
+		}
+	},
+	"join": {
+		"title": "Gostaria de fazer parte?",
+		"body": "Recebemos candidaturas espontâneas durante todo o ano.",
+		"cta": "Trabalhe connosco"
+	}
+}

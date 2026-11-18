@@ -1,0 +1,91 @@
+{
+	"updated": "Última atualização: {date}",
+	"draftNotice": "Minuta a validar por um jurista antes da publicação. Os campos entre parênteses retos devem ser preenchidos.",
+	"privacy": {
+		"meta": {
+			"title": "Política de privacidade",
+			"description": "Como a j&m. trata os seus dados pessoais, nos termos do RGPD."
+		},
+		"title": "Política de privacidade",
+		"sections": {
+			"controller": {
+				"title": "Responsável pelo tratamento",
+				"body": "[Denominação social], NIF [000 000 000], com sede em [morada], é a entidade responsável pelo tratamento dos dados pessoais recolhidos neste site. Contacto: jmlimpcomercial@gmail.com."
+			},
+			"data": {
+				"title": "Dados recolhidos",
+				"body": "Recolhemos apenas os dados que nos fornece nos formulários: nome, email, telefone, tipo de espaço e a mensagem que escrever."
+			},
+			"purpose": {
+				"title": "Finalidade e fundamento",
+				"body": "Os dados são usados para responder ao seu pedido e preparar uma proposta (diligências pré-contratuais, artigo 6.º, n.º 1, alínea b) do RGPD) e, no caso de candidaturas, para o processo de recrutamento."
+			},
+			"retention": {
+				"title": "Conservação",
+				"body": "Pedidos sem seguimento são apagados ao fim de 12 meses. Dados de clientes são conservados pelo prazo legal de faturação."
+			},
+			"sharing": {
+				"title": "Partilha",
+				"body": "Não vendemos nem cedemos dados. Podem ser tratados por prestadores técnicos (alojamento do site, email) sob contrato e dentro do Espaço Económico Europeu, sempre que possível."
+			},
+			"rights": {
+				"title": "Os seus direitos",
+				"body": "Pode pedir acesso, retificação, apagamento, limitação, portabilidade ou opor-se ao tratamento através do email acima. Tem ainda o direito de apresentar reclamação à CNPD (www.cnpd.pt)."
+			}
+		}
+	},
+	"cookies": {
+		"meta": {
+			"title": "Política de cookies",
+			"description": "Que cookies o site da j&m. utiliza."
+		},
+		"title": "Política de cookies",
+		"sections": {
+			"what": {
+				"title": "O que são cookies",
+				"body": "Pequenos ficheiros guardados no seu navegador que permitem ao site funcionar ou recolher estatísticas."
+			},
+			"used": {
+				"title": "Cookies que utilizamos",
+				"body": "Este site utiliza apenas cookies estritamente necessários ao seu funcionamento. Não utilizamos cookies de publicidade nem de rastreamento."
+			},
+			"analytics": {
+				"title": "Estatísticas",
+				"body": "Se no futuro forem ativadas estatísticas de visitas, será pedido o seu consentimento prévio através de um aviso de cookies."
+			},
+			"control": {
+				"title": "Como controlar",
+				"body": "Pode apagar ou bloquear cookies nas definições do seu navegador. Bloquear cookies necessários pode afetar o funcionamento do site."
+			}
+		}
+	},
+	"terms": {
+		"meta": {
+			"title": "Termos e condições",
+			"description": "Condições de utilização do site e informação sobre resolução alternativa de litígios."
+		},
+		"title": "Termos e condições",
+		"sections": {
+			"use": {
+				"title": "Utilização do site",
+				"body": "Este site apresenta os serviços da j&m. A informação não constitui proposta contratual: cada serviço é objeto de proposta escrita após visita."
+			},
+			"ip": {
+				"title": "Propriedade intelectual",
+				"body": "A marca j&m., os textos, imagens e elementos gráficos são propriedade de [Denominação social] e não podem ser reproduzidos sem autorização."
+			},
+			"complaints": {
+				"title": "Livro de Reclamações",
+				"body": "Pode apresentar reclamação no Livro de Reclamações Eletrónico, em www.livroreclamacoes.pt."
+			},
+			"disputes": {
+				"title": "Resolução alternativa de litígios",
+				"body": "Em caso de litígio de consumo, pode recorrer a uma entidade de resolução alternativa de litígios: [Centro de Arbitragem competente], ou consultar a lista em www.consumidor.gov.pt. Mais informação no Portal do Consumidor."
+			},
+			"law": {
+				"title": "Lei aplicável",
+				"body": "Aplica-se a lei portuguesa."
+			}
+		}
+	}
+}

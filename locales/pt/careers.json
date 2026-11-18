@@ -1,0 +1,59 @@
+{
+	"meta": {
+		"title": "Trabalhe connosco",
+		"description": "Junte-se à equipa j&m. Formação contínua, equipas estáveis e trabalho de que se orgulha."
+	},
+	"hero": {
+		"eyebrow": "Trabalhe connosco",
+		"title": "O detalhe é o nosso ofício.",
+		"nuance": "Se também é o seu, fale connosco.",
+		"lead": "Procuramos pessoas cuidadosas, pontuais e discretas. O resto, ensinamos."
+	},
+	"why": {
+		"eyebrow": "Porquê a j&m.",
+		"stable": {
+			"title": "Equipas estáveis",
+			"body": "Trabalha sempre com as mesmas pessoas e nos mesmos clientes."
+		},
+		"training": {
+			"title": "Formação paga",
+			"body": "Protocolos por domínio, segurança e equipamento especializado."
+		},
+		"respect": {
+			"title": "Horários respeitados",
+			"body": "Por marcação, para os clientes e para quem trabalha connosco."
+		}
+	},
+	"profile": {
+		"eyebrow": "O que procuramos",
+		"title": "Mais atitude",
+		"nuance": "do que currículo.",
+		"care": "Cuidado com o espaço dos outros",
+		"punctuality": "Pontualidade, sempre",
+		"discretion": "Discrição com clientes e chaves",
+		"license": "Carta de condução (valorizada)"
+	},
+	"process": {
+		"eyebrow": "Como funciona",
+		"send": {
+			"title": "Envie a candidatura",
+			"body": "Nome, contacto e uma frase sobre si. Currículo opcional."
+		},
+		"talk": {
+			"title": "Uma conversa",
+			"body": "Presencial ou por telefone, sem pressas."
+		},
+		"shadow": {
+			"title": "Acompanhamento",
+			"body": "Trabalha com a equipa antes de assumir um cliente."
+		}
+	},
+	"openings": {
+		"eyebrow": "Vagas",
+		"empty": "De momento não temos vagas publicadas, mas recebemos candidaturas espontâneas durante todo o ano."
+	},
+	"apply": {
+		"cta": "Enviar candidatura por email",
+		"subject": "Candidatura espontânea — j&m."
+	}
+}

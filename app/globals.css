@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+@theme {
+	--color-verde: #0f2e24;
+	--color-verde-deep: var(--color-verde);
+	--color-verde-line: color-mix(in oklab, var(--color-pedra) 22%, var(--color-verde));
+	--color-verde-muted: var(--color-pedra);
+	--color-verde-label: var(--color-pedra);
+	--color-verde-soft: var(--color-pedra);
+	--color-tinta: #111413;
+	--color-tinta-line: color-mix(in oklab, var(--color-pedra) 16%, var(--color-tinta));
+	--color-tinta-soft: var(--color-pedra);
+	--color-cal: #f5f4ef;
+	--color-papel: #fbfbf8;
+	--color-pedra: #d9d6cc;
+	--color-linha: #e0ddd4;
+	--color-grelha: #e8e6df;
+	--color-lima: #d4f06a;
+	--color-cinza: #6b706c;
+	--color-nuance: var(--color-cinza);
+	--color-texto: #3a3f3b;
+	--color-antes: #3b3326;
+	--color-antes-texto: #c8b48e;
+	--color-depois: #e8e4da;
+
+	--font-sans: var(--font-geist-sans), Arial, sans-serif;
+	--font-mono: var(--font-geist-mono), "Courier New", monospace;
+	--font-display: var(--font-funnel), Arial, sans-serif;
+
+	--text-mega: clamp(3.5rem, 10vw, 10rem);
+	--text-mega--line-height: 0.92;
+	--text-display: clamp(3rem, 7vw, 7rem);
+	--text-display--line-height: 0.96;
+	--text-headline: clamp(2.5rem, 5vw, 4.75rem);
+	--text-headline--line-height: 1;
+	--text-title: clamp(1.75rem, 3vw, 2.75rem);
+	--text-title--line-height: 1.08;
+	--text-lead: clamp(1.125rem, 1.6vw, 1.375rem);
+	--text-lead--line-height: 1.55;
+
+	--tracking-tightest: -0.05em;
+	--tracking-display: -0.035em;
+	--tracking-logo: -0.04em;
+	--tracking-label: 0.14em;
+
+	--ease-calm: cubic-bezier(0.22, 1, 0.36, 1);
+
+	--radius-card: 1.75rem;
+	--radius-panel: 2.25rem;
+
+	--spacing-section: clamp(6rem, 12vw, 11rem);
+	--spacing-gutter: clamp(1.25rem, 4vw, 4rem);
+	--container-site: 88rem;
+}
+
+:root {
+	--background: var(--color-cal);
+	--foreground: var(--color-tinta);
+}
+
+@theme inline {
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+}
+
+html {
+	background: var(--background);
+	color: var(--foreground);
+	scroll-behavior: auto;
+}
+
+html.lenis,
+html.lenis body {
+	height: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+	overscroll-behavior: contain;
+}
+
+::selection {
+	background: var(--color-lima);
+	color: var(--color-tinta);
+}
+
+@utility bg-grid {
+	background-image:
+		repeating-linear-gradient(
+			0deg,
+			var(--color-grelha) 0 1px,
+			transparent 1px 2.5rem
+		),
+		repeating-linear-gradient(
+			90deg,
+			var(--color-grelha) 0 1px,
+			transparent 1px 2.5rem
+		);
+}
+
+@utility container-site {
+	width: 100%;
+	max-width: var(--container-site);
+	margin-inline: auto;
+	padding-inline: var(--spacing-gutter);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		transition-duration: 0.01ms !important;
+	}
+}
+
+@theme {
+	--animate-dot: dot-in 0.9s var(--ease-calm) 0.4s both;
+	--animate-marquee: marquee 48s linear infinite;
+
+	@keyframes dot-in {
+		from {
+			opacity: 0;
+			transform: scale(0.2);
+		}
+		to {
+			opacity: 1;
+			transform: scale(1);
+		}
+	}
+
+	@keyframes marquee {
+		from {
+			transform: translateX(0);
+		}
+		to {
+			transform: translateX(-50%);
+		}
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"meta": {
+		"title": "O Padrão J&M",
+		"description": "Observar, planear, executar e ponto final. O método j&m. em quatro etapas, igual numa casa ou numa fábrica."
+	},
+	"hero": {
+		"eyebrow": "O Padrão J&M",
+		"title": "Quatro etapas.",
+		"nuance": "Na sala de estar ou na nave industrial.",
+		"lead": "O que muda é a escala. A sequência, os registos e a exigência são sempre os mesmos."
+	},
+	"labels": {
+		"step": "Etapa {number, number}",
+		"receives": "O que recebe"
+	},
+	"steps": {
+		"observe": {
+			"title": "Observar",
+			"body": "Visitamos o espaço. Levantamos superfícies, equipamentos, riscos e horários — numa casa ou numa nave industrial.",
+			"receives": "Ficha do espaço"
+		},
+		"plan": {
+			"title": "Planear",
+			"body": "Definimos âmbito, equipa, equipamento e a janela certa para não interromper a sua rotina ou a sua produção.",
+			"receives": "Proposta escrita, sem letras pequenas"
+		},
+		"execute": {
+			"title": "Executar",
+			"body": "Equipa formada e certificada, procedimentos escritos e equipamento especializado. Sem pressa e sem atalhos.",
+			"receives": "Registo do trabalho feito"
+		},
+		"close": {
+			"title": "Ponto final",
+			"body": "Verificação, antes e depois, relatório. Só saímos quando não há mais nada a dizer.",
+			"receives": "Relatório e próxima data"
+		}
+	},
+	"safety": {
+		"eyebrow": "Segurança",
+		"title": "O que não se vê",
+		"nuance": "também é feito.",
+		"training": {
+			"title": "Equipa formada",
+			"body": "Formação contínua e certificação adequada a cada domínio."
+		},
+		"equipment": {
+			"title": "Equipamento próprio",
+			"body": "Equipamento especializado e produtos adequados a cada superfície."
+		},
+		"protocols": {
+			"title": "Procedimentos escritos",
+			"body": "EPI, bloqueio de energia em máquinas e registo de cada intervenção."
+		},
+		"insurance": {
+			"title": "Seguro de responsabilidade civil",
+			"body": "[Confirmar apólice e capital seguro antes de publicar]."
+		}
+	}
+}

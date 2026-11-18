@@ -1,0 +1,81 @@
+{
+	"brand": {
+		"name": "j&m.",
+		"descriptor": "Limpeza & manutenção",
+		"signature": "Limpo.",
+		"signatureNuance": "Ponto final.",
+		"since": "Desde 2016",
+		"byAppointment": "Por marcação",
+		"country": "Portugal",
+		"homeLabel": "j&m., página inicial"
+	},
+	"meta": {
+		"title": "j&m. — Limpeza & manutenção, desde 2016",
+		"titleTemplate": "%s · j&m.",
+		"description": "Limpeza e manutenção para quem repara nos detalhes. De uma casa a uma fábrica, com o mesmo padrão. Desde 2016, por marcação."
+	},
+	"nav": {
+		"home": "Início",
+		"services": "Serviços",
+		"method": "Método",
+		"about": "Sobre nós",
+		"team": "Equipa",
+		"contact": "Contacto",
+		"faq": "Perguntas frequentes",
+		"careers": "Trabalhe connosco",
+		"tour": "Visita guiada",
+		"openMenu": "Abrir menu",
+		"closeMenu": "Fechar menu",
+		"mainLabel": "Navegação principal",
+		"footerLabel": "Navegação do rodapé",
+		"skip": "Saltar para o conteúdo"
+	},
+	"cta": {
+		"book": "Marcar visita",
+		"bookWhatsapp": "Marcar pelo WhatsApp",
+		"learnMethod": "Conhecer o método",
+		"startTour": "Fazer a visita guiada",
+		"seeServices": "Ver serviços",
+		"contact": "Falar connosco",
+		"backHome": "Voltar ao início",
+		"readMore": "Saber mais"
+	},
+	"whatsapp": {
+		"default": "Olá, gostava de marcar uma visita.",
+		"area": "Olá, gostava de marcar uma visita para j&m. {area}."
+	},
+	"footer": {
+		"tagline": "Limpeza e manutenção para quem repara nos detalhes. De uma casa a uma fábrica.",
+		"company": "Empresa",
+		"services": "Serviços",
+		"support": "Apoio",
+		"privacy": "Política de privacidade",
+		"cookies": "Política de cookies",
+		"terms": "Termos e condições",
+		"complaints": "Livro de Reclamações",
+		"rights": "© {year, number, ::group-off} j&m. Limpeza & Manutenção.",
+		"legalEntity": "[Denominação social] · NIF [000 000 000] · [Morada da sede]",
+		"externalLink": "(abre numa nova janela)"
+	},
+	"contactInfo": {
+		"phone": "Telefone",
+		"email": "Email",
+		"whatsapp": "WhatsApp",
+		"area": "Área de atuação",
+		"areaValue": "Portugal continental",
+		"hours": "Atendimento",
+		"hoursValue": "Dias úteis, por marcação"
+	},
+	"notFound": {
+		"eyebrow": "Erro 404",
+		"title": "Este espaço está vazio.",
+		"nuance": "Até nós ficámos surpreendidos.",
+		"body": "A página que procura não existe ou mudou de lugar."
+	},
+	"error": {
+		"title": "Algo não correu como devia.",
+		"nuance": "Já estamos a tratar.",
+		"retry": "Tentar novamente",
+		"eyebrow": "Erro"
+	}
+}

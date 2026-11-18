@@ -1,0 +1,82 @@
+{
+	"meta": {
+		"title": "Perguntas frequentes",
+		"description": "Marcação, preços, seguros, indústria e mais. As respostas às perguntas que mais nos fazem."
+	},
+	"hero": {
+		"eyebrow": "Perguntas frequentes",
+		"title": "Respostas curtas.",
+		"nuance": "Sem letras pequenas.",
+		"lead": "Não encontra o que procura? Fale connosco: respondemos no mesmo dia útil."
+	},
+	"groups": {
+		"general": {
+			"title": "Geral",
+			"items": {
+				"coverage": {
+					"question": "Em que zonas trabalham?",
+					"answer": "Temos operação nacional em Portugal continental. A disponibilidade em cada zona é confirmada na marcação."
+				},
+				"spaces": {
+					"question": "Que tipo de espaços limpam?",
+					"answer": "Casas, escritórios, lojas, obras acabadas, fábricas e espaços em mudança. Cada domínio tem uma equipa e um protocolo próprios."
+				},
+				"sameTeam": {
+					"question": "É sempre a mesma equipa?",
+					"answer": "Sim, sempre que possível. Em serviços recorrentes, a continuidade da equipa faz parte do que prometemos."
+				}
+			}
+		},
+		"booking": {
+			"title": "Marcação e preços",
+			"items": {
+				"price": {
+					"question": "Porque não têm tabela de preços?",
+					"answer": "Porque nenhum espaço é igual. Cada proposta nasce de uma visita e é enviada por escrito, com valor fechado."
+				},
+				"visit": {
+					"question": "A visita tem custo?",
+					"answer": "Não. A visita prévia é sem compromisso."
+				},
+				"lead": {
+					"question": "Com que antecedência devo marcar?",
+					"answer": "Trabalhamos por marcação. Para serviços recorrentes ou industriais, recomendamos contacto com duas a três semanas de antecedência."
+				}
+			}
+		},
+		"industry": {
+			"title": "Indústria",
+			"items": {
+				"downtime": {
+					"question": "Têm de parar a produção?",
+					"answer": "Planeamos as intervenções para janelas fora do horário de produção: noites, fins de semana ou paragens programadas."
+				},
+				"polishing": {
+					"question": "Trabalham com máquinas de polimento?",
+					"answer": "Sim. Desmontagem, limpeza profunda de componentes e substituição programada de filtros."
+				},
+				"report": {
+					"question": "Recebo algum registo do trabalho?",
+					"answer": "Sim. Cada intervenção termina com relatório, fotografias antes e depois e a data recomendada para a próxima."
+				}
+			}
+		},
+		"safety": {
+			"title": "Segurança e confiança",
+			"items": {
+				"insurance": {
+					"question": "Têm seguro?",
+					"answer": "Sim, seguro de responsabilidade civil. [Confirmar apólice antes de publicar]."
+				},
+				"keys": {
+					"question": "Como gerem as chaves de casa?",
+					"answer": "Com registo de entrega e devolução, e apenas a equipa atribuída tem acesso."
+				},
+				"products": {
+					"question": "Que produtos utilizam?",
+					"answer": "Produtos adequados a cada superfície, com fichas de segurança disponíveis a pedido."
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"meta": {
+		"title": "Contacto",
+		"description": "Marque uma visita sem compromisso. Respondemos no mesmo dia útil."
+	},
+	"hero": {
+		"eyebrow": "Contacto",
+		"title": "Fale connosco.",
+		"nuance": "Respondemos no mesmo dia útil.",
+		"lead": "Diga-nos onde vamos trabalhar. Marcamos uma visita e a proposta segue por escrito."
+	},
+	"channels": {
+		"eyebrow": "Canais diretos"
+	},
+	"form": {
+		"title": "Pedido de visita",
+		"name": "Nome",
+		"namePlaceholder": "Como o devemos tratar",
+		"email": "Email",
+		"emailPlaceholder": "nome@exemplo.pt",
+		"phone": "Telefone",
+		"phonePlaceholder": "+351",
+		"space": "Tipo de espaço",
+		"spacePlaceholder": "Escolha uma opção",
+		"message": "Mensagem",
+		"messagePlaceholder": "Morada aproximada, dimensão, datas preferidas…",
+		"consent": "Aceito que a j&m. utilize estes dados para responder ao meu pedido, nos termos da",
+		"submit": "Enviar pedido",
+		"sending": "A enviar…",
+		"success": "Pedido recebido. Entraremos em contacto no mesmo dia útil.",
+		"failure": "Não foi possível enviar. Tente novamente ou contacte-nos pelo WhatsApp.",
+		"mailFallback": "O seu programa de email vai abrir com o pedido preenchido.",
+		"emailSubject": "Pedido de visita — {name}",
+		"errors": {
+			"nameRequired": "Indique o seu nome.",
+			"emailInvalid": "Indique um email válido.",
+			"spaceRequired": "Escolha o tipo de espaço.",
+			"messageShort": "Conte-nos um pouco mais (mínimo 10 caracteres).",
+			"consentRequired": "É necessário aceitar para podermos responder."
+		},
+		"privacyLink": "Política de Privacidade."
+	}
+}

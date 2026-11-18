@@ -1,0 +1,47 @@
+import { cn } from "@/lib/utils";
+import type { LogoProps } from "@/models/interfaces/common";
+
+const GLYPHS = [
+	{
+		transform: "translate(129.0,0) scale(1.0,-1.0)",
+		d: "M38 -226Q-17 -226 -58.5 -207.0Q-100 -188 -129 -156L-10 -37Q0 -47 8.5 -50.5Q17 -54 25 -54Q42 -54 51.5 -44.5Q61 -35 61 -13V492H257V-9Q257 -72 230.0 -121.0Q203 -170 154.0 -198.0Q105 -226 38 -226ZM159 538Q116 538 87.5 567.5Q59 597 59 640Q59 683 87.5 712.5Q116 742 159 742Q203 742 231.0 712.5Q259 683 259 640Q259 597 231.0 567.5Q203 538 159 538Z",
+	},
+	{
+		transform: "translate(430.0,0) scale(1.0,-1.0)",
+		d: "M490 0 174 349Q136 392 120.5 430.0Q105 468 105 513Q105 568 133.5 616.0Q162 664 212.5 694.0Q263 724 330 724Q384 724 424.5 709.5Q465 695 493.0 673.5Q521 652 534 631L409 506Q391 531 373.0 539.5Q355 548 335 548Q313 548 299.5 535.5Q286 523 286 506Q286 495 291.5 483.0Q297 471 308 458L716 0ZM266 -12Q194 -12 140.5 17.5Q87 47 57.5 97.0Q28 147 28 208Q28 276 63.0 329.5Q98 383 171 416L251 284Q228 277 217.5 260.0Q207 243 207 224Q207 209 214.0 195.0Q221 181 235.0 172.0Q249 163 269 163Q286 163 302.0 171.5Q318 180 334 203L469 74Q455 56 425.5 36.0Q396 16 355.0 2.0Q314 -12 266 -12Z",
+	},
+	{
+		transform: "translate(1169.0,0) scale(1.0,-1.0)",
+		d: "M47 0V492H243V0ZM350 0V282Q350 307 335.0 321.5Q320 336 297 336Q281 336 268.5 329.5Q256 323 249.5 311.0Q243 299 243 282L167 310Q167 370 193.5 413.0Q220 456 265.0 479.0Q310 502 367 502Q417 502 457.5 478.0Q498 454 522.0 411.5Q546 369 546 311V0ZM653 0V282Q653 307 638.0 321.5Q623 336 600 336Q584 336 571.5 329.5Q559 323 552.5 311.0Q546 299 546 282L431 281Q431 350 458.5 399.5Q486 449 535.0 475.5Q584 502 647 502Q706 502 751.5 477.0Q797 452 823.0 405.0Q849 358 849 292V0Z",
+	},
+] as const;
+
+const VIEW_BOX = "0 -742 2218 968";
+const DOT = { cx: 2133.0, cy: -85.0, r: 85.0 } as const;
+
+export function Logo({ className, dot = "lima", animated = false }: LogoProps) {
+	return (
+		<svg
+			viewBox={VIEW_BOX}
+			role="img"
+			aria-label="j&m."
+			className={cn("h-[1em] w-auto", className)}
+		>
+			<g fill="currentColor">
+				{GLYPHS.map((glyph) => (
+					<path key={glyph.transform} transform={glyph.transform} d={glyph.d} />
+				))}
+			</g>
+			<circle
+				cx={DOT.cx}
+				cy={DOT.cy}
+				r={DOT.r}
+				className={cn(
+					dot === "lima" ? "fill-lima" : "fill-verde",
+					animated && "animate-dot",
+				)}
+				style={{ transformBox: "fill-box", transformOrigin: "center" }}
+			/>
+		</svg>
+	);
+}

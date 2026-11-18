@@ -1,0 +1,15 @@
+export const SITE_CONFIG = {
+	name: "j&m.",
+	legalName: "J&M Limpeza e Manutenção",
+	url: process.env.NEXT_PUBLIC_APP_URL ?? "https://www.jm-limpeza.pt",
+	foundingYear: 2016,
+	phone: "+351961650396",
+	phoneDisplay: "+351 961 650 396",
+	email: "jmlimpcomercial@gmail.com",
+	whatsappNumber: "351961650396",
+	themeColor: "#0f2e24",
+	backgroundColor: "#f5f4ef",
+	complaintsBookUrl: "https://www.livroreclamacoes.pt",
+	disputeResolutionUrl: "https://www.consumidor.gov.pt",
+	euDisputeUrl: "https://ec.europa.eu/consumers/odr",
+} as const;

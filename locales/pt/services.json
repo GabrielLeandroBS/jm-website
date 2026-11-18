@@ -1,0 +1,107 @@
+{
+	"meta": {
+		"title": "Serviços",
+		"description": "Limpeza residencial, de empresas, pós-obra, industrial e mudanças. Cinco domínios, o mesmo padrão j&m."
+	},
+	"hero": {
+		"eyebrow": "Serviços",
+		"title": "Um nome, cinco domínios.",
+		"nuance": "O padrão é sempre o mesmo.",
+		"lead": "Da sala de estar à nave industrial. Muda a escala, a equipa e o equipamento — nunca a exigência."
+	},
+	"labels": {
+		"brandPrefix": "j&m.",
+		"whatWeDo": "O que fazemos",
+		"forWhom": "Para quem",
+		"included": "Sempre incluído",
+		"otherAreas": "Outros domínios",
+		"seeArea": "Ver j&m. {area}",
+		"allServices": "Todos os serviços",
+		"metaTitle": "j&m. {area} — {title}"
+	},
+	"included": {
+		"title": "Em todos os domínios.",
+		"nuance": "Sem exceção.",
+		"visit": "Visita prévia ao espaço, sem compromisso",
+		"proposal": "Proposta escrita e fechada",
+		"team": "Equipa formada, identificada e segura",
+		"report": "Relatório com antes e depois"
+	},
+	"areas": {
+		"casa": {
+			"name": "casa",
+			"title": "Limpeza residencial",
+			"short": "Moradias, apartamentos e segundas habitações.",
+			"intro": "Confiar as chaves de casa exige mais do que uma limpeza bem feita. Exige discrição, a mesma equipa todas as vezes e nenhuma surpresa.",
+			"audience": "Famílias com pouco tempo, casas com peças delicadas e proprietários de segundas habitações.",
+			"items": {
+				"one": "Limpeza recorrente, semanal ou quinzenal",
+				"two": "Limpeza profunda de entrada ou de mudança de estação",
+				"three": "Preparação de segundas habitações antes da chegada",
+				"four": "Cuidado com materiais nobres: madeira, pedra, metais",
+				"five": "Gestão de chaves com registo"
+			},
+			"highlight": "A mesma equipa, todas as vezes."
+		},
+		"empresas": {
+			"name": "empresas",
+			"title": "Escritórios e espaços comerciais",
+			"short": "Escritórios, lojas e espaços comerciais.",
+			"intro": "O espaço de trabalho é a primeira impressão que a sua empresa dá. Tratamos dele fora de horas, para que ninguém dê por nós — só pelo resultado.",
+			"audience": "Gestores de escritórios, lojas de rua e de centro comercial, clínicas e showrooms.",
+			"items": {
+				"one": "Limpeza diária ou semanal fora do horário de funcionamento",
+				"two": "Montras, vidros e superfícies de contacto",
+				"three": "Copas, instalações sanitárias e zonas comuns",
+				"four": "Plano por zonas com verificação mensal",
+				"five": "Faturação mensal clara, sem extras escondidos"
+			},
+			"highlight": "Fora de horas. Sem interromper ninguém."
+		},
+		"obra": {
+			"name": "obra",
+			"title": "Limpeza pós-obra",
+			"short": "Pós-obra e remodelações, prontos a entregar.",
+			"intro": "Uma obra só termina quando o espaço pode ser usado. Removemos os resíduos e deixamos cada superfície pronta para a entrega das chaves.",
+			"audience": "Construtoras, promotores imobiliários, arquitetos e particulares em remodelação.",
+			"items": {
+				"one": "Remoção de resíduos e poeiras finas de obra",
+				"two": "Limpeza detalhada de caixilharias, vidros e pavimentos",
+				"three": "Remoção de restos de tinta, cimento e silicone",
+				"four": "Preparação final para entrega das chaves",
+				"five": "Cumprimento rigoroso do calendário da obra"
+			},
+			"highlight": "Entregue no dia marcado."
+		},
+		"industria": {
+			"name": "indústria",
+			"title": "Limpeza técnica industrial",
+			"short": "Máquinas industriais e de polimento.",
+			"intro": "Numa fábrica, a sujidade nunca é só sujidade. É óleo num rolamento, um filtro saturado, uma linha que perde rendimento em silêncio. Tratamos disso com método.",
+			"audience": "Diretores de produção e responsáveis de manutenção da metalomecânica, acabamentos e indústria em geral.",
+			"items": {
+				"one": "Limpeza técnica de máquinas industriais",
+				"two": "Máquinas de polimento: desmontagem e limpeza profunda de componentes",
+				"three": "Substituição programada de filtros",
+				"four": "Intervenções fora do horário de produção",
+				"five": "Relatório técnico com registo fotográfico"
+			},
+			"highlight": "A máquina limpa trabalha melhor e dura mais."
+		},
+		"mudancas": {
+			"name": "mudanças",
+			"title": "Mudanças residenciais e comerciais",
+			"short": "Casas e empresas, com limpeza à chegada.",
+			"intro": "Uma mudança bem feita é aquela em que, no primeiro dia, tudo já está no lugar e limpo. Embalamos, transportamos e deixamos os dois espaços prontos.",
+			"audience": "Famílias e empresas em mudança de instalações.",
+			"items": {
+				"one": "Embalagem adequada de móveis, equipamentos e bens",
+				"two": "Transporte com cuidado e seguro",
+				"three": "Limpeza do espaço de saída",
+				"four": "Limpeza e arrumação no espaço de chegada",
+				"five": "Calendário fechado, sem dias perdidos"
+			},
+			"highlight": "Dois espaços, uma só equipa."
+		}
+	}
+}

@@ -1,0 +1,101 @@
+{
+	"meta": {
+		"title": "Sobre nós",
+		"description": "A história da j&m.: começou por uma casa em 2016 e cresceu por recomendação até às fábricas. Sem campanhas, sem atalhos."
+	},
+	"hero": {
+		"eyebrow": "Sobre nós",
+		"title": "Começou por uma casa.",
+		"nuance": "Nunca precisou de anúncios.",
+		"lead": "A j&m. cresceu como crescem as casas de confiança: de boca em boca, entre quem sabe reconhecer o trabalho bem feito."
+	},
+	"story": {
+		"eyebrow": "A história",
+		"first": "Em 2016, José Miguel limpava casas e entregava obras acabadas. Trabalho silencioso, feito com o mesmo cuidado com que se trata a casa da família.",
+		"second": "Um dos clientes, dono de uma fábrica, reparou. E fez a pergunta que mudou tudo: “Consegue fazer isto lá?”",
+		"third": "Conseguia. Uma recomendação levou a outra. Da casa à empresa, da empresa à obra, da obra à linha de produção.",
+		"fourth": "Sem campanhas e sem descontos — apenas espaços que passaram a ficar como deviam estar. É assim que a j&m. continua a crescer."
+	},
+	"chapters": {
+		"eyebrow": "Cronologia",
+		"house": {
+			"label": "2016",
+			"title": "Uma casa",
+			"body": "O primeiro cliente. O padrão nasce aqui: deixar tudo como se ninguém tivesse lá estado."
+		},
+		"referral": {
+			"label": "II",
+			"title": "Uma recomendação",
+			"body": "Escritórios, lojas e obras. Cada trabalho apresentou o seguinte."
+		},
+		"factory": {
+			"label": "III",
+			"title": "Uma fábrica",
+			"body": "Máquinas industriais e de polimento. Desmontar, limpar, substituir filtros, voltar a montar."
+		},
+		"standard": {
+			"label": "IV",
+			"title": "Um padrão",
+			"body": "O mesmo método numa sala de estar ou numa nave industrial."
+		},
+		"today": {
+			"label": "Hoje",
+			"title": "Um nome",
+			"body": "Operação nacional. Quem conhece, recomenda."
+		}
+	},
+	"manifesto": {
+		"eyebrow": "Manifesto",
+		"title": "Nunca dissemos que somos os melhores.",
+		"nuance": "Os espaços que limpamos dizem-no por nós.",
+		"body": "Há quem grite promoções e estrelas. Nós preferimos o silêncio de um espaço bem cuidado: aquele que ninguém comenta, porque nada falta."
+	},
+	"rules": {
+		"eyebrow": "As cinco regras da casa",
+		"facts": {
+			"title": "Factos, nunca adjetivos.",
+			"body": "“Desde 2016” diz mais do que “o melhor”."
+		},
+		"discretion": {
+			"title": "Discrição é serviço.",
+			"body": "Os clientes não se mostram. Recomendam."
+		},
+		"calm": {
+			"title": "Calma, sempre.",
+			"body": "Prazos exatos. Nenhuma urgência fabricada."
+		},
+		"detail": {
+			"title": "O detalhe é para quem sabe ver.",
+			"body": "O rodapé, o filtro, o canto atrás da máquina."
+		},
+		"appointment": {
+			"title": "Por marcação.",
+			"body": "Nunca “promoção”. Nunca “desconto”."
+		}
+	},
+	"values": {
+		"eyebrow": "Valores",
+		"title": "O que não negociamos.",
+		"precision": {
+			"title": "Precisão",
+			"body": "Observamos antes de agir. Cada proposta nasce de uma visita."
+		},
+		"discretion": {
+			"title": "Discrição",
+			"body": "Trabalhamos à volta da sua rotina, não por cima dela."
+		},
+		"proof": {
+			"title": "Prova",
+			"body": "Antes, depois e relatório. Não pedimos confiança."
+		},
+		"continuity": {
+			"title": "Continuidade",
+			"body": "Uma relação, não um serviço. A mesma equipa, todos os anos."
+		}
+	},
+	"founder": {
+		"quote": "Nunca fizemos publicidade. Fizemos limpezas.",
+		"name": "José Miguel",
+		"role": "CEO e fundador"
+	}
+}

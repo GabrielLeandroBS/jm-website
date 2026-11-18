@@ -1,0 +1,91 @@
+{
+	"meta": {
+		"title": "Visita guiada",
+		"description": "Em três minutos, conheça a j&m. e receba uma primeira recomendação para o seu espaço."
+	},
+	"stages": {
+		"welcome": "Receção",
+		"space": "Espaço",
+		"method": "Método",
+		"proof": "Prova",
+		"proposal": "Proposta",
+		"label": "Etapas da visita"
+	},
+	"welcome": {
+		"eyebrow": "01 · Receção",
+		"title": "Bem-vindo.",
+		"nuance": "Fique à vontade.",
+		"body": "Não temos tabela de preços nem pacotes iguais para todos. Em três minutos mostramos-lhe como trabalhamos — e percebemos o que o seu espaço precisa.",
+		"start": "Começar a visita",
+		"coffee": "O café é por nossa conta."
+	},
+	"space": {
+		"eyebrow": "02 · O seu espaço",
+		"title": "Conte-nos sobre o espaço.",
+		"nuance": "O resto é connosco.",
+		"progress": "{count, number} de 3 respostas",
+		"spaceQuestion": "Que espaço é?",
+		"frequencyQuestion": "Com que regularidade?",
+		"priorityQuestion": "O que é mais importante para si?",
+		"spaces": {
+			"house": "Casa",
+			"office": "Escritório",
+			"store": "Loja",
+			"construction": "Obra acabada",
+			"factory": "Fábrica",
+			"moving": "Mudança"
+		},
+		"frequencies": {
+			"once": "Uma vez",
+			"weekly": "Semanal",
+			"monthly": "Mensal",
+			"contract": "Contrato contínuo"
+		},
+		"priorities": {
+			"discretion": "Discrição",
+			"detail": "Detalhe",
+			"deadline": "Prazo",
+			"compliance": "Normas e segurança"
+		}
+	},
+	"method": {
+		"eyebrow": "03 · O método",
+		"title": "Quatro etapas.",
+		"nuance": "Sempre pela mesma ordem."
+	},
+	"proof": {
+		"eyebrow": "04 · A prova",
+		"title": "Não pedimos confiança.",
+		"nuance": "Mostramos."
+	},
+	"proposal": {
+		"eyebrow": "05 · A proposta",
+		"title": "Está tratado.",
+		"nuance": "Só falta marcar.",
+		"body": "Este é o ponto de partida. O plano final define-se no local, numa visita sem compromisso.",
+		"sheetTitle": "Ficha de visita",
+		"spaceLabel": "Espaço",
+		"frequencyLabel": "Regularidade",
+		"priorityLabel": "Prioridade",
+		"empty": "—",
+		"suggestionLabel": "A nossa sugestão",
+		"noSpace": "Volte ao passo “Espaço” e diga-nos onde vamos trabalhar.",
+		"whatsapp": "Marcar pelo WhatsApp",
+		"email": "Enviar por email",
+		"emailSubject": "Pedido de visita j&m.",
+		"message": "Olá, fiz a visita guiada no site da j&m. e gostava de marcar uma visita. Espaço: {space}. Regularidade: {frequency}. Prioridade: {priority}.",
+		"suggestions": {
+			"house": "Limpeza profunda inicial e, a partir daí, uma rotina discreta, sempre com a mesma equipa.",
+			"office": "Intervenções fora de horas, com plano por zonas e verificação mensal.",
+			"store": "Limpeza antes da abertura, com montra e superfícies de contacto em primeiro lugar.",
+			"construction": "Remoção de resíduos, limpeza detalhada e preparação final para a entrega das chaves.",
+			"factory": "Limpeza técnica de máquinas: desmontagem, componentes e substituição programada de filtros, fora do horário de produção.",
+			"moving": "Embalagem e transporte, com limpeza do espaço de saída e do de chegada."
+		}
+	},
+	"nav": {
+		"previous": "Anterior",
+		"next": "Seguinte",
+		"toProposal": "Ver a proposta"
+	}
+}
