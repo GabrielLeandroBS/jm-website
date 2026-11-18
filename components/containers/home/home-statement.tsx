@@ -7,7 +7,7 @@ export async function HomeStatement() {
 	return (
 		<section className="bg-cal py-section">
 			<div className="container-site">
-				<div className="rounded-panel bg-verde px-8 py-24 text-cal md:px-16 md:py-36">
+				<div className="rounded-panel bg-verde pad-band text-cal">
 					<WordReveal
 						lead={t("lead")}
 						nuance={t("nuance")}

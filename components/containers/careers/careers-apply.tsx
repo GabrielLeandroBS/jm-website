@@ -13,7 +13,7 @@ export async function CareersApply() {
 	return (
 		<section id="candidatura" className="bg-cal py-section">
 			<div className="container-site">
-				<div className="grid gap-12 rounded-panel bg-verde px-6 py-14 text-cal sm:px-10 md:px-16 md:py-20 lg:grid-cols-2">
+				<div className="grid gap-stack rounded-panel bg-verde pad-band text-cal lg:grid-cols-2">
 					<div className="flex flex-col gap-8">
 						<Reveal>
 							<Eyebrow tone="dark">{t("apply.eyebrow")}</Eyebrow>

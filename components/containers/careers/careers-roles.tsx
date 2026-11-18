@@ -18,7 +18,7 @@ export async function CareersRoles() {
 					{CAREER_ROLE_KEYS.map((key, index) => (
 						<li key={key}>
 							<Reveal delay={index * 0.06} className="h-full">
-								<article className="flex h-full flex-col gap-4 rounded-card border border-linha bg-papel p-7">
+								<article className="flex h-full flex-col gap-4 rounded-card border border-linha bg-papel pad-card">
 									<p className="font-mono text-sm text-cinza">0{index + 1}</p>
 									<h3 className="font-display text-2xl font-semibold">
 										{t(`items.${key}.title`)}

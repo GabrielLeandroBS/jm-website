@@ -20,7 +20,7 @@ export async function HomeHero() {
 	return (
 		<section className="bg-cal pt-24 pb-3 md:pt-28">
 			<div className="container-site grid gap-3 lg:grid-cols-12">
-				<div className="flex flex-col justify-between gap-12 rounded-panel bg-verde p-6 text-cal sm:p-10 lg:col-span-7 lg:min-h-[86svh] lg:p-14">
+				<div className="flex flex-col justify-between gap-12 rounded-panel bg-verde pad-panel text-cal lg:col-span-7 lg:min-h-[86svh]">
 					<div className="flex flex-wrap items-center justify-between gap-4">
 						<Eyebrow tone="dark">{t("eyebrow")}</Eyebrow>
 						<p className="hidden rounded-full border border-verde-line px-4 py-2 font-mono text-xs text-verde-label sm:block">
@@ -71,7 +71,7 @@ export async function HomeHero() {
 					</Reveal>
 					<Reveal
 						delay={0.25}
-						className="flex flex-col gap-6 rounded-panel border border-linha bg-papel p-6 sm:p-8"
+						className="flex flex-col gap-6 rounded-panel border border-linha bg-papel pad-card"
 					>
 						<Eyebrow>{t("panelLabel")}</Eyebrow>
 						<HeroAreaList />

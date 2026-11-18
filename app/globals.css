@@ -106,6 +106,19 @@ html.lenis body {
 		);
 }
 
+@utility pad-band {
+	padding-inline: clamp(1.5rem, 5vw, 4rem);
+	padding-block: clamp(3rem, 6vw, 5rem);
+}
+
+@utility pad-panel {
+	padding: clamp(1.5rem, 4vw, 3.5rem);
+}
+
+@utility pad-card {
+	padding: clamp(1.5rem, 3vw, 2rem);
+}
+
 @utility container-site {
 	width: 100%;
 	max-width: var(--container-site);

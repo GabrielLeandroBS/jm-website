@@ -68,7 +68,7 @@ export function ContactForm() {
 		<form
 			onSubmit={handleSubmit(onSubmit)}
 			noValidate
-			className="flex flex-col gap-6 rounded-panel border border-linha bg-papel p-8 md:p-12"
+			className="flex flex-col gap-6 rounded-panel border border-linha bg-papel pad-panel"
 		>
 			<h2 className="font-display font-semibold text-headline">{t("title")}</h2>
 			<div className="grid gap-6 md:grid-cols-2">

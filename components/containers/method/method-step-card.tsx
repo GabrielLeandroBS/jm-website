@@ -15,7 +15,7 @@ export function MethodStepCard({
 	return (
 		<article
 			className={cn(
-				"flex flex-col gap-6 rounded-card p-8 md:p-10",
+				"flex flex-col gap-6 rounded-card pad-card",
 				highlighted && "bg-lima text-tinta",
 				!highlighted && isDark && "border border-tinta-line bg-tinta text-cal",
 				!highlighted && !isDark && "border border-linha bg-papel text-tinta",

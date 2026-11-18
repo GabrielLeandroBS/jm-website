@@ -33,7 +33,7 @@ export async function AreaApproach({ slug }: AreaSectionProps) {
 				</div>
 				<Reveal
 					delay={0.12}
-					className="flex flex-col gap-6 self-start rounded-card border border-linha bg-papel p-7 lg:sticky lg:top-32"
+					className="flex flex-col gap-6 self-start rounded-card border border-linha bg-papel pad-card lg:sticky lg:top-32"
 				>
 					<Eyebrow>{t("labels.deliverables")}</Eyebrow>
 					<CheckList

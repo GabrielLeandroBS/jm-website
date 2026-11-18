@@ -7,7 +7,7 @@ export async function HeroReportCard() {
 	const t = await getTranslations("home.hero.report");
 
 	return (
-		<article className="flex h-full flex-col gap-6 rounded-panel border border-linha bg-papel bg-grid p-6 sm:p-8">
+		<article className="flex h-full flex-col gap-6 rounded-panel border border-linha bg-papel bg-grid pad-card">
 			<header className="flex items-start justify-between gap-4">
 				<div className="flex flex-col gap-1">
 					<p className="font-mono text-xs uppercase tracking-label text-cinza">

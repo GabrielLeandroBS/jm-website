@@ -24,7 +24,7 @@ export async function HomeAudiences() {
 								<Reveal delay={index * 0.06} className="h-full">
 									<article
 										className={cn(
-											"flex h-full flex-col gap-6 rounded-card border p-7",
+											"flex h-full flex-col gap-6 rounded-card border pad-card",
 											isFeatured
 												? "border-verde bg-verde text-cal"
 												: "border-linha bg-papel",

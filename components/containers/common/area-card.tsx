@@ -15,7 +15,7 @@ export function AreaCard({
 		<Link
 			href={areaRoute(slug)}
 			className={cn(
-				"group flex h-full min-h-72 flex-col justify-between gap-10 rounded-card border p-7 transition-[transform,background-color,border-color] duration-700 ease-calm hover:-translate-y-1 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-verde",
+				"group flex h-full min-h-72 flex-col justify-between gap-10 rounded-card border pad-card transition-[transform,background-color,border-color] duration-700 ease-calm hover:-translate-y-1 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-verde",
 				featured
 					? "border-verde bg-verde text-cal"
 					: "border-linha bg-papel text-tinta hover:border-tinta",

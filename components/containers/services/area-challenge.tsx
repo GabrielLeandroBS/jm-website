@@ -8,9 +8,9 @@ export async function AreaChallenge({ slug }: AreaSectionProps) {
 	const t = await getTranslations("services");
 
 	return (
-		<section className="bg-cal">
+		<section className="bg-cal pb-section">
 			<div className="container-site">
-				<div className="grid gap-10 rounded-panel bg-verde px-6 py-14 text-cal sm:px-10 md:px-16 md:py-24 lg:grid-cols-2 lg:gap-16">
+				<div className="grid gap-stack rounded-panel bg-verde pad-band text-cal lg:grid-cols-2">
 					<div className="flex flex-col gap-6">
 						<Reveal>
 							<Eyebrow tone="dark">{t("labels.challenge")}</Eyebrow>

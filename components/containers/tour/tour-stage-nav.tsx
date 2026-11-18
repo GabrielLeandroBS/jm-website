@@ -9,7 +9,7 @@ export function TourStageNav({ stageIndex, onSelect }: TourStageNavProps) {
 	const t = useTranslations("tour.stages");
 
 	return (
-		<nav aria-label={t("label")} className="flex justify-center">
+		<nav aria-label={t("label")} className="hidden justify-center md:flex">
 			<ol className="flex flex-wrap gap-1 rounded-full border border-linha bg-papel p-1.5">
 				{TOUR_STAGES.map((stage, index) => (
 					<li key={stage}>

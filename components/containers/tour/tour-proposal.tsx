@@ -25,7 +25,7 @@ export function TourProposal({ answers }: TourProposalProps) {
 		<div className="flex flex-col gap-12">
 			<TourStageHeader stage="proposal" />
 			<div className="grid gap-4 lg:grid-cols-5">
-				<div className="flex flex-col gap-6 rounded-panel bg-verde p-8 text-cal md:p-12 lg:col-span-3">
+				<div className="flex flex-col gap-6 rounded-panel bg-verde pad-panel text-cal lg:col-span-3">
 					<p className="text-lead text-verde-soft">{t("body")}</p>
 					<p className="font-medium text-verde-label text-base">
 						{t("suggestionLabel")}
@@ -48,7 +48,7 @@ export function TourProposal({ answers }: TourProposalProps) {
 					</div>
 				</div>
 				<dl
-					className="flex flex-col gap-5 rounded-card border border-linha bg-papel p-8 lg:col-span-2"
+					className="flex flex-col gap-5 rounded-card border border-linha bg-papel pad-card lg:col-span-2"
 					data-area={area ?? undefined}
 				>
 					<p className="font-display font-semibold text-title">

@@ -19,7 +19,7 @@ export async function CtaBand({
 	return (
 		<section className="bg-cal py-section">
 			<div className="container-site">
-				<div className="flex flex-col gap-12 rounded-panel bg-verde px-8 py-16 text-cal md:px-16 md:py-24">
+				<div className="flex flex-col gap-stack rounded-panel bg-verde pad-band text-cal">
 					<Reveal>
 						<Eyebrow tone="dark">{eyebrow}</Eyebrow>
 					</Reveal>

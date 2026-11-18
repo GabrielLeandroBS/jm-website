@@ -21,7 +21,7 @@ export async function AboutChapters() {
 								<Reveal delay={index * 0.08} className="h-full">
 									<article
 										className={cn(
-											"flex h-full flex-col gap-4 rounded-card p-7",
+											"flex h-full flex-col gap-4 rounded-card pad-card",
 											isLast
 												? "bg-verde text-cal"
 												: "border border-linha bg-papel",

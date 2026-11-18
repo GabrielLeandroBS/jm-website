@@ -9,19 +9,9 @@ import { useEffect } from "react";
 import { Logo } from "@/components/containers/common/logo";
 import { ButtonLink } from "@/components/shared/button-link";
 import { useScrollToTop } from "@/hooks/use-scroll-to-top";
-import {
-	FOOTER_COMPANY_NAV,
-	FOOTER_SUPPORT_NAV,
-	PRIMARY_NAV,
-} from "@/models/constants/navigation";
+import { MOBILE_NAV } from "@/models/constants/navigation";
 import { ROUTES } from "@/models/constants/routes";
 import type { MobileMenuProps } from "@/models/interfaces/layout";
-
-const MENU_LINKS = [
-	...PRIMARY_NAV,
-	...FOOTER_SUPPORT_NAV.filter((link) => link.href !== ROUTES.contact),
-	FOOTER_COMPANY_NAV[3],
-];
 
 export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
 	const t = useTranslations("common");
@@ -68,7 +58,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
 						</button>
 					</div>
 					<nav className="container-site flex flex-1 flex-col justify-center gap-2 py-12">
-						{MENU_LINKS.map((link, index) => (
+						{MOBILE_NAV.map((link, index) => (
 							<motion.div
 								key={link.href}
 								initial={{ opacity: 0, y: 24 }}

@@ -19,7 +19,7 @@ export async function TeamRoles() {
 					{TEAM_ROLE_KEYS.map((key, index) => (
 						<li key={key}>
 							<Reveal delay={index * 0.08} className="h-full">
-								<article className="flex h-full flex-col gap-6 rounded-card bg-tinta p-6">
+								<article className="flex h-full flex-col gap-6 rounded-card bg-tinta pad-card">
 									<div className="flex aspect-square items-end rounded-2xl bg-tinta-line p-4 font-mono text-tinta-soft text-xs uppercase tracking-label">
 										{t("photoPlaceholder")}
 									</div>

@@ -10,7 +10,7 @@ export async function TeamJoin() {
 	return (
 		<section className="bg-cal py-section">
 			<div className="container-site">
-				<div className="flex flex-col justify-between gap-10 rounded-panel border border-linha bg-papel px-6 py-12 sm:px-10 md:flex-row md:items-end md:px-16 md:py-16">
+				<div className="flex flex-col justify-between gap-stack rounded-panel border border-linha bg-papel pad-band md:flex-row md:items-end">
 					<Reveal className="flex flex-col gap-4">
 						<TwoToneHeading
 							title={t("title")}

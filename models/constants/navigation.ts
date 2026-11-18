@@ -21,3 +21,8 @@ export const FOOTER_SUPPORT_NAV = [
 	{ href: ROUTES.faq, labelKey: "faq" },
 	{ href: ROUTES.contact, labelKey: "contact" },
 ] as const satisfies readonly NavLink[];
+
+export const MOBILE_NAV = [
+	...PRIMARY_NAV,
+	{ href: ROUTES.faq, labelKey: "faq" },
+] as const satisfies readonly NavLink[];

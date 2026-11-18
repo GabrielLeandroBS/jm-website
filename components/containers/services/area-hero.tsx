@@ -17,7 +17,7 @@ export async function AreaHero({ slug }: AreaSectionProps) {
 	return (
 		<section className="bg-cal pt-28 pb-6">
 			<div className="container-site">
-				<div className="flex min-h-[70svh] flex-col justify-between gap-16 rounded-panel bg-verde p-8 text-cal md:p-14">
+				<div className="flex min-h-[70svh] flex-col justify-between gap-16 rounded-panel bg-verde pad-panel text-cal">
 					<Reveal className="flex items-center justify-between gap-6">
 						<Link
 							href={ROUTES.services}

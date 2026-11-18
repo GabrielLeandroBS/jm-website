@@ -24,7 +24,7 @@ export async function MethodRecords() {
 								<Reveal delay={index * 0.06} className="h-full">
 									<article
 										className={cn(
-											"flex h-full flex-col gap-10 rounded-card border p-7",
+											"flex h-full flex-col gap-10 rounded-card border pad-card",
 											isLast
 												? "border-verde bg-verde text-cal"
 												: "border-linha bg-papel bg-grid",
