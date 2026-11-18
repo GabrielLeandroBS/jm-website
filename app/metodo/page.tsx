@@ -8,6 +8,7 @@ import { MethodRecords } from "@/components/containers/method/method-records";
 import { MethodSafety } from "@/components/containers/method/method-safety";
 import { MethodSteps } from "@/components/containers/method/method-steps";
 import { buildFaqEntries } from "@/lib/utils/faq-entries";
+import { getOgAlt } from "@/lib/utils/og-alt";
 import { buildPageMetadata } from "@/lib/utils/page-metadata";
 import { METHOD_FAQ_PATHS } from "@/models/constants/content-keys";
 import { ROUTES } from "@/models/constants/routes";
@@ -18,6 +19,7 @@ export async function generateMetadata(): Promise<Metadata> {
 		title: t("title"),
 		description: t("description"),
 		path: ROUTES.method,
+		imageAlt: await getOgAlt(),
 	});
 }
 

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import { CtaBand } from "@/components/containers/common/cta-band";
 import { SectionIntro } from "@/components/containers/common/section-intro";
+import { JsonLd } from "@/components/containers/seo/json-ld";
 import { AreaApproach } from "@/components/containers/services/area-approach";
 import { AreaChallenge } from "@/components/containers/services/area-challenge";
 import { AreaDetail } from "@/components/containers/services/area-detail";
@@ -10,10 +11,14 @@ import { AreaFaq } from "@/components/containers/services/area-faq";
 import { AreaGrid } from "@/components/containers/services/area-grid";
 import { AreaHero } from "@/components/containers/services/area-hero";
 import { IncludedSection } from "@/components/containers/services/included-section";
+import { SITE_CONFIG } from "@/config/site";
 import { isAreaSlug } from "@/lib/utils/area";
+import { getOgAlt } from "@/lib/utils/og-alt";
 import { buildPageMetadata } from "@/lib/utils/page-metadata";
+import { buildBreadcrumbList, buildFaqPage } from "@/lib/utils/structured-data";
 import { AREA_SLUGS } from "@/models/constants/areas";
-import { areaRoute } from "@/models/constants/routes";
+import { AREA_FAQ_KEYS } from "@/models/constants/content-keys";
+import { areaRoute, ROUTES } from "@/models/constants/routes";
 import type { AreaPageProps } from "@/models/interfaces/services";
 
 export function generateStaticParams() {
@@ -33,6 +38,7 @@ export async function generateMetadata({
 		}),
 		description: t(`areas.${area}.intro`),
 		path: areaRoute(area),
+		imageAlt: await getOgAlt(),
 	});
 }
 
@@ -46,8 +52,41 @@ export default async function AreaPage({ params }: AreaPageProps) {
 		getTranslations("home.cta"),
 	]);
 
+	const areaUrl = `${SITE_CONFIG.url}${areaRoute(area)}`;
+	const areaName = `j&m. ${t(`areas.${area}.name`)}`;
+	const structuredData = {
+		"@context": "https://schema.org",
+		"@graph": [
+			{
+				"@type": "Service",
+				name: t(`areas.${area}.title`),
+				alternateName: areaName,
+				description: t(`areas.${area}.intro`),
+				url: areaUrl,
+				areaServed: { "@type": "Country", name: "Portugal" },
+				provider: { "@id": `${SITE_CONFIG.url}/#empresa` },
+			},
+			buildBreadcrumbList([
+				{ name: tCommon("nav.home"), url: SITE_CONFIG.url },
+				{
+					name: tCommon("nav.services"),
+					url: `${SITE_CONFIG.url}${ROUTES.services}`,
+				},
+				{ name: areaName, url: areaUrl },
+			]),
+			buildFaqPage(
+				AREA_FAQ_KEYS.map((key) => ({
+					key,
+					question: t(`areas.${area}.faq.${key}.question`),
+					answer: t(`areas.${area}.faq.${key}.answer`),
+				})),
+			),
+		],
+	};
+
 	return (
 		<>
+			<JsonLd data={structuredData} />
 			<AreaHero slug={area} />
 			<AreaChallenge slug={area} />
 			<AreaDetail slug={area} />

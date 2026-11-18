@@ -7,6 +7,7 @@ describe("buildPageMetadata", () => {
 			title: "Serviços",
 			description: "Quatro domínios.",
 			path: "/servicos",
+			imageAlt: "j&m.",
 		});
 
 		expect(metadata.alternates?.canonical).toBe("/servicos");
@@ -14,6 +15,12 @@ describe("buildPageMetadata", () => {
 			title: "Serviços",
 			url: "/servicos",
 		});
-		expect(metadata.twitter).toMatchObject({ description: "Quatro domínios." });
+		expect(metadata.twitter).toMatchObject({
+			card: "summary_large_image",
+			description: "Quatro domínios.",
+		});
+		expect(metadata.openGraph?.images).toEqual([
+			expect.objectContaining({ url: "/og.jpg", width: 1200, alt: "j&m." }),
+		]);
 	});
 });

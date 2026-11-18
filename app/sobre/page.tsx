@@ -10,6 +10,7 @@ import { CtaBand } from "@/components/containers/common/cta-band";
 import { PageHero } from "@/components/containers/common/page-hero";
 import { HomeDifference } from "@/components/containers/home/home-difference";
 import { HomeFacts } from "@/components/containers/home/home-facts";
+import { getOgAlt } from "@/lib/utils/og-alt";
 import { buildPageMetadata } from "@/lib/utils/page-metadata";
 import { ROUTES } from "@/models/constants/routes";
 
@@ -19,6 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
 		title: t("title"),
 		description: t("description"),
 		path: ROUTES.about,
+		imageAlt: await getOgAlt(),
 	});
 }
 

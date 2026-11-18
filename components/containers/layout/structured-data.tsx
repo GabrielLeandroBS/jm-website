@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import { JsonLd } from "@/components/containers/seo/json-ld";
 import { SITE_CONFIG } from "@/config/site";
 import { AREA_SLUGS } from "@/models/constants/areas";
 import { areaRoute } from "@/models/constants/routes";
@@ -21,7 +22,7 @@ export async function StructuredData() {
 				slogan: `${t("brand.signature")} ${t("brand.signatureNuance")}`,
 				url: SITE_CONFIG.url,
 				logo: `${SITE_CONFIG.url}/icon.svg`,
-				image: `${SITE_CONFIG.url}/opengraph-image/default`,
+				image: `${SITE_CONFIG.url}/og.jpg`,
 				telephone: SITE_CONFIG.phone,
 				email: SITE_CONFIG.email,
 				foundingDate: String(SITE_CONFIG.foundingYear),
@@ -52,11 +53,5 @@ export async function StructuredData() {
 		],
 	};
 
-	return (
-		<script
-			type="application/ld+json"
-			// biome-ignore lint/security/noDangerouslySetInnerHtml: static JSON-LD built from constants
-			dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-		/>
-	);
+	return <JsonLd data={schema} />;
 }

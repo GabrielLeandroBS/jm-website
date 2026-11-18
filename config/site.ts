@@ -1,7 +1,15 @@
+import { resolveSiteUrl } from "@/lib/utils/site-url";
+
 export const SITE_CONFIG = {
 	name: "j&m.",
 	legalName: "J&M Limpeza e Manutenção",
-	url: process.env.NEXT_PUBLIC_APP_URL ?? "https://www.jm-limpeza.pt",
+	url: resolveSiteUrl({
+		NEXT_PUBLIC_APP_URL: process.env.NEXT_PUBLIC_APP_URL,
+		VERCEL_PROJECT_PRODUCTION_URL: process.env.VERCEL_PROJECT_PRODUCTION_URL,
+		NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL:
+			process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL,
+		VERCEL_URL: process.env.VERCEL_URL,
+	}),
 	foundingYear: 2016,
 	phone: "+351961650396",
 	phoneDisplay: "+351 961 650 396",

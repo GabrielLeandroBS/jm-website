@@ -4,6 +4,7 @@ import { PageHero } from "@/components/containers/common/page-hero";
 import { Reveal } from "@/components/containers/common/reveal";
 import { ContactChannels } from "@/components/containers/contact/contact-channels";
 import { ContactForm } from "@/components/containers/contact/contact-form";
+import { getOgAlt } from "@/lib/utils/og-alt";
 import { buildPageMetadata } from "@/lib/utils/page-metadata";
 import { ROUTES } from "@/models/constants/routes";
 
@@ -13,6 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
 		title: t("title"),
 		description: t("description"),
 		path: ROUTES.contact,
+		imageAlt: await getOgAlt(),
 	});
 }
 

@@ -8,6 +8,7 @@ import { CareersRoles } from "@/components/containers/careers/careers-roles";
 import { CareersWhy } from "@/components/containers/careers/careers-why";
 import { PageHero } from "@/components/containers/common/page-hero";
 import { ButtonLink } from "@/components/shared/button-link";
+import { getOgAlt } from "@/lib/utils/og-alt";
 import { buildPageMetadata } from "@/lib/utils/page-metadata";
 import { ROUTES } from "@/models/constants/routes";
 
@@ -17,6 +18,7 @@ export async function generateMetadata(): Promise<Metadata> {
 		title: t("title"),
 		description: t("description"),
 		path: ROUTES.careers,
+		imageAlt: await getOgAlt(),
 	});
 }
 

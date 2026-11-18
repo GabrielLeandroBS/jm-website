@@ -9,4 +9,9 @@ export const OG_COLORS = {
 	linha: "#2a463c",
 } as const;
 
-export const OG_SIZE = { width: 1200, height: 630 } as const;
+export const OG_IMAGE = {
+	url: "/og.jpg",
+	width: 1200,
+	height: 630,
+	type: "image/jpeg",
+} as const;

@@ -8,6 +8,7 @@ import { StructuredData } from "@/components/containers/layout/structured-data";
 import { SITE_CONFIG } from "@/config/site";
 import { fontDisplay, fontMono, fontSans } from "@/lib/fonts";
 import { cn } from "@/lib/utils";
+import { OG_IMAGE } from "@/models/constants/og";
 import "./globals.css";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -31,13 +32,21 @@ export async function generateMetadata(): Promise<Metadata> {
 			title: t("title"),
 			description: t("description"),
 			url: "/",
+			images: [{ ...OG_IMAGE, alt: t("ogAlt") }],
 		},
 		twitter: {
 			card: "summary_large_image",
 			title: t("title"),
 			description: t("description"),
+			images: [{ ...OG_IMAGE, alt: t("ogAlt") }],
 		},
-		alternates: { canonical: "/" },
+		alternates: { canonical: "/", languages: { "pt-PT": "/" } },
+		verification: {
+			google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
+			other: process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION
+				? { "msvalidate.01": process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION }
+				: undefined,
+		},
 	};
 }
 

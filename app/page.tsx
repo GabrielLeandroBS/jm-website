@@ -13,6 +13,7 @@ import { HomeSectors } from "@/components/containers/home/home-sectors";
 import { HomeStatement } from "@/components/containers/home/home-statement";
 import { HomeStory } from "@/components/containers/home/home-story";
 import { buildFaqEntries } from "@/lib/utils/faq-entries";
+import { getOgAlt } from "@/lib/utils/og-alt";
 import { buildPageMetadata } from "@/lib/utils/page-metadata";
 import { HOME_FAQ_PATHS } from "@/models/constants/content-keys";
 import { ROUTES } from "@/models/constants/routes";
@@ -24,6 +25,7 @@ export async function generateMetadata(): Promise<Metadata> {
 			title: t("title"),
 			description: t("description"),
 			path: ROUTES.home,
+			imageAlt: await getOgAlt(),
 		}),
 		title: { absolute: t("title") },
 	};

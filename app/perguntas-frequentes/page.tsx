@@ -3,7 +3,11 @@ import { getTranslations } from "next-intl/server";
 import { CtaBand } from "@/components/containers/common/cta-band";
 import { PageHero } from "@/components/containers/common/page-hero";
 import { FaqGroups } from "@/components/containers/faq/faq-groups";
+import { JsonLd } from "@/components/containers/seo/json-ld";
+import { buildFaqEntries } from "@/lib/utils/faq-entries";
+import { getOgAlt } from "@/lib/utils/og-alt";
 import { buildPageMetadata } from "@/lib/utils/page-metadata";
+import { buildFaqPage } from "@/lib/utils/structured-data";
 import { FAQ_ITEM_PATHS } from "@/models/constants/content-keys";
 import { ROUTES } from "@/models/constants/routes";
 
@@ -13,26 +17,16 @@ export async function generateMetadata(): Promise<Metadata> {
 		title: t("title"),
 		description: t("description"),
 		path: ROUTES.faq,
+		imageAlt: await getOgAlt(),
 	});
 }
 
 export default async function FaqPage() {
-	const t = await getTranslations("faq.hero");
-	const tGroups = await getTranslations("faq.groups");
-	const tCta = await getTranslations("home.cta");
-
-	const schema = {
-		"@context": "https://schema.org",
-		"@type": "FAQPage",
-		mainEntity: FAQ_ITEM_PATHS.map((path) => ({
-			"@type": "Question",
-			name: tGroups(`${path}.question`),
-			acceptedAnswer: {
-				"@type": "Answer",
-				text: tGroups(`${path}.answer`),
-			},
-		})),
-	};
+	const [t, tGroups, tCta] = await Promise.all([
+		getTranslations("faq.hero"),
+		getTranslations("faq.groups"),
+		getTranslations("home.cta"),
+	]);
 
 	return (
 		<>
@@ -49,11 +43,7 @@ export default async function FaqPage() {
 				nuance={tCta("nuance")}
 				body={tCta("body")}
 			/>
-			<script
-				type="application/ld+json"
-				// biome-ignore lint/security/noDangerouslySetInnerHtml: static JSON-LD from translations
-				dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-			/>
+			<JsonLd data={buildFaqPage(buildFaqEntries(tGroups, FAQ_ITEM_PATHS))} />
 		</>
 	);
 }

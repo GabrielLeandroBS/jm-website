@@ -9,6 +9,7 @@ import { IncludedSection } from "@/components/containers/services/included-secti
 import { ServicesChooser } from "@/components/containers/services/services-chooser";
 import { ServicesFrequencies } from "@/components/containers/services/services-frequencies";
 import { buildFaqEntries } from "@/lib/utils/faq-entries";
+import { getOgAlt } from "@/lib/utils/og-alt";
 import { buildPageMetadata } from "@/lib/utils/page-metadata";
 import { SERVICES_FAQ_PATHS } from "@/models/constants/content-keys";
 import { ROUTES } from "@/models/constants/routes";
@@ -19,6 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
 		title: t("title"),
 		description: t("description"),
 		path: ROUTES.services,
+		imageAlt: await getOgAlt(),
 	});
 }
 

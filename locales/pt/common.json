@@ -12,7 +12,8 @@
 	"meta": {
 		"title": "j&m. | Limpeza & manutenção, desde 2016",
 		"titleTemplate": "%s · j&m.",
-		"description": "Limpeza e manutenção para quem repara nos detalhes. De uma casa a uma fábrica, com o mesmo padrão. Desde 2016, por marcação."
+		"description": "Limpeza e manutenção para quem repara nos detalhes. De uma casa a uma fábrica, com o mesmo padrão. Desde 2016, por marcação.",
+		"ogAlt": "j&m. Limpo. Ponto final. Limpeza e manutenção, de uma casa a uma fábrica, desde 2016."
 	},
 	"nav": {
 		"home": "Início",
@@ -77,11 +78,5 @@
 		"nuance": "Tente novamente dentro de instantes.",
 		"retry": "Tentar novamente",
 		"eyebrow": "Erro"
-	},
-	"og": {
-		"eyebrow": "Limpeza & manutenção",
-		"footer": "Desde 2016 · Por marcação · Portugal",
-		"alt": "j&m. Limpo. Ponto final. Limpeza e manutenção, de uma casa a uma fábrica.",
-		"areaAlt": "j&m. {area} | {title}"
 	}
 }

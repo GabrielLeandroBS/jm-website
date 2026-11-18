@@ -179,3 +179,7 @@ export interface FaqGroupProps {
 	title: string;
 	items: readonly FaqEntry[];
 }
+
+export interface JsonLdProps {
+	data: Record<string, unknown>;
+}
