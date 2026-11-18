@@ -1,3 +1,4 @@
+import { BrandText } from "@/components/containers/common/brand-text";
 import { cn } from "@/lib/utils";
 import type { NumberedItemProps } from "@/models/interfaces/common";
 
@@ -22,14 +23,16 @@ export function NumberedItem({
 			>
 				{marker}
 			</p>
-			<h3 className="font-display text-2xl font-semibold">{title}</h3>
+			<h3 className="font-display text-2xl font-semibold">
+				<BrandText text={title} tone={tone} />
+			</h3>
 			<p
 				className={cn(
 					"text-base leading-relaxed",
 					tone === "light" ? "text-texto" : "text-verde-soft",
 				)}
 			>
-				{body}
+				<BrandText text={body} tone={tone} />
 			</p>
 		</div>
 	);

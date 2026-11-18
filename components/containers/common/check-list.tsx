@@ -1,4 +1,5 @@
 import { Checkmark } from "@carbon/icons-react";
+import { BrandText } from "@/components/containers/common/brand-text";
 import { cn } from "@/lib/utils";
 import type { CheckListProps } from "@/models/interfaces/common";
 
@@ -20,7 +21,9 @@ export function CheckList({ items, tone = "light" }: CheckListProps) {
 							tone === "light" ? "text-verde" : "text-lima",
 						)}
 					/>
-					{item}
+					<span>
+						<BrandText text={item} tone={tone} />
+					</span>
 				</li>
 			))}
 		</ul>

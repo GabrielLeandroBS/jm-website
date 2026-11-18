@@ -1,3 +1,4 @@
+import { BrandText } from "@/components/containers/common/brand-text";
 import { cn } from "@/lib/utils";
 import type { MarqueeProps } from "@/models/interfaces/common";
 
@@ -6,7 +7,12 @@ const SIZE_CLASSES = {
 	lg: "gap-16 text-headline",
 } as const;
 
-export function Marquee({ items, size = "lg", className }: MarqueeProps) {
+export function Marquee({
+	items,
+	size = "lg",
+	tone = "light",
+	className,
+}: MarqueeProps) {
 	const loop = [...items, ...items];
 
 	return (
@@ -25,7 +31,9 @@ export function Marquee({ items, size = "lg", className }: MarqueeProps) {
 							SIZE_CLASSES[size],
 						)}
 					>
-						{item}
+						<span>
+							<BrandText text={item} tone={tone} />
+						</span>
 						<span className="size-3 rounded-full bg-lima" />
 					</span>
 				))}

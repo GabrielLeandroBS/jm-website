@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { useId, useMemo, useState } from "react";
 import { useForm } from "react-hook-form";
+import { BrandText } from "@/components/containers/common/brand-text";
 import { Button } from "@/components/shared/button";
 import { FieldError } from "@/components/shared/field-error";
 import { Input } from "@/components/shared/input";
@@ -152,7 +153,7 @@ export function ContactForm() {
 						{...register("consent")}
 					/>
 					<Label htmlFor={id("consent")} className="font-normal">
-						{t("consent")}{" "}
+						<BrandText text={t("consent")} />{" "}
 						<Link href={ROUTES.privacy} className="underline">
 							{t("privacyLink")}
 						</Link>

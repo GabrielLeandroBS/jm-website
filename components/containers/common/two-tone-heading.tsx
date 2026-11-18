@@ -1,3 +1,4 @@
+import { BrandText } from "@/components/containers/common/brand-text";
 import { cn } from "@/lib/utils";
 import type {
 	HeadingSize,
@@ -27,7 +28,9 @@ export function TwoToneHeading({
 				className,
 			)}
 		>
-			<span className="block">{title}</span>
+			<span className="block">
+				<BrandText text={title} tone={tone} />
+			</span>
 			{nuance && (
 				<span
 					className={cn(
@@ -35,7 +38,7 @@ export function TwoToneHeading({
 						tone === "light" ? "text-nuance" : "text-verde-muted",
 					)}
 				>
-					{nuance}
+					<BrandText text={nuance} tone={tone} />
 				</span>
 			)}
 		</Tag>

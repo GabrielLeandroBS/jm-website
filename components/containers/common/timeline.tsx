@@ -1,3 +1,4 @@
+import { BrandText } from "@/components/containers/common/brand-text";
 import { Reveal } from "@/components/containers/common/reveal";
 import { cn } from "@/lib/utils";
 import type { TimelineProps } from "@/models/interfaces/common";
@@ -23,7 +24,7 @@ export function Timeline({ items, tone = "light" }: TimelineProps) {
 								{item.marker ?? `0${index + 1}`}
 							</p>
 							<h3 className="font-display text-2xl font-semibold md:col-span-4">
-								{item.title}
+								<BrandText text={item.title} tone={tone} />
 							</h3>
 							<p
 								className={cn(
@@ -31,7 +32,7 @@ export function Timeline({ items, tone = "light" }: TimelineProps) {
 									tone === "light" ? "text-texto" : "text-verde-soft",
 								)}
 							>
-								{item.body}
+								<BrandText text={item.body} tone={tone} />
 							</p>
 						</div>
 					</Reveal>

@@ -1,5 +1,6 @@
 import { ArrowUpRight } from "@carbon/icons-react";
 import Link from "next/link";
+import { BrandLockup } from "@/components/containers/common/brand-lockup";
 import { cn } from "@/lib/utils";
 import { areaRoute } from "@/models/constants/routes";
 import type { AreaCardProps } from "@/models/interfaces/common";
@@ -33,10 +34,7 @@ export function AreaCard({
 			</div>
 			<div className="flex flex-col gap-3">
 				<p className="font-display text-3xl font-extrabold tracking-logo">
-					j&amp;m.{" "}
-					<span className={featured ? "text-verde-label" : "text-cinza"}>
-						{name}
-					</span>
+					<BrandLockup domain={name} tone={featured ? "dark" : "light"} />
 				</p>
 				<p
 					className={cn(

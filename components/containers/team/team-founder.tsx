@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import { BrandText } from "@/components/containers/common/brand-text";
 import { Eyebrow } from "@/components/containers/common/eyebrow";
 import { QuoteBlock } from "@/components/containers/common/quote-block";
 import { Reveal } from "@/components/containers/common/reveal";
@@ -20,7 +21,9 @@ export async function TeamFounder() {
 							<Eyebrow>{t("eyebrow")}</Eyebrow>
 						</Reveal>
 						<Reveal delay={0.08}>
-							<p className="max-w-2xl text-lead text-texto">{t("bio")}</p>
+							<p className="max-w-2xl text-lead text-texto">
+								<BrandText text={t("bio")} />
+							</p>
 						</Reveal>
 					</div>
 					<QuoteBlock quote={t("quote")} name={t("name")} role={t("role")} />

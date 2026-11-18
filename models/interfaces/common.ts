@@ -11,6 +11,18 @@ export interface LogoProps {
 	className?: string;
 	dot?: "lima" | "verde";
 	animated?: boolean;
+	inline?: boolean;
+}
+
+export interface BrandTextProps {
+	text: string;
+	tone?: Tone;
+}
+
+export interface BrandLockupProps {
+	domain: string;
+	tone?: Tone;
+	className?: string;
 }
 
 export interface EyebrowProps {
@@ -99,6 +111,7 @@ export interface BeforeAfterProps {
 export interface MarqueeProps {
 	items: readonly string[];
 	size?: "sm" | "lg";
+	tone?: Tone;
 	className?: string;
 }
 

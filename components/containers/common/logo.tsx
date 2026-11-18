@@ -2,14 +2,19 @@ import { cn } from "@/lib/utils";
 import { LOGO_DOT, LOGO_GLYPHS, LOGO_VIEW_BOX } from "@/models/constants/logo";
 import type { LogoProps } from "@/models/interfaces/common";
 
-export function Logo({ className, dot = "lima", animated = false }: LogoProps) {
+export function Logo({
+	className,
+	dot = "lima",
+	animated = false,
+	inline = false,
+}: LogoProps) {
 	return (
 		<svg
 			viewBox={LOGO_VIEW_BOX}
 			preserveAspectRatio="xMinYMid meet"
 			role="img"
 			aria-label="j&m."
-			className={cn("h-[1em] w-auto", className)}
+			className={cn(inline ? "logo-inline" : "h-[1em] w-auto", className)}
 		>
 			<g fill="currentColor">
 				{LOGO_GLYPHS.map((glyph) => (

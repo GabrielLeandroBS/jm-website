@@ -1,3 +1,4 @@
+import { BrandText } from "@/components/containers/common/brand-text";
 import { Eyebrow } from "@/components/containers/common/eyebrow";
 import { Reveal } from "@/components/containers/common/reveal";
 import { TwoToneHeading } from "@/components/containers/common/two-tone-heading";
@@ -41,7 +42,7 @@ export function PageHero({
 								tone === "dark" ? "text-verde-soft" : "text-texto",
 							)}
 						>
-							{lead}
+							<BrandText text={lead} tone={tone} />
 						</p>
 					</Reveal>
 				)}

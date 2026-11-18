@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
+import { BrandText } from "@/components/containers/common/brand-text";
 import { Logo } from "@/components/containers/common/logo";
 import { FooterColumn } from "@/components/containers/layout/footer-column";
 import { SITE_CONFIG } from "@/config/site";
@@ -53,7 +54,10 @@ export async function SiteFooter() {
 							{AREA_SLUGS.map((slug) => (
 								<li key={slug}>
 									<Link href={areaRoute(slug)} className={LINK_CLASS}>
-										j&amp;m. {tServices(`areas.${slug}.name`)}
+										<BrandText
+											text={`j&m. ${tServices(`areas.${slug}.name`)}`}
+											tone="dark"
+										/>
 									</Link>
 								</li>
 							))}
@@ -80,7 +84,9 @@ export async function SiteFooter() {
 				</div>
 				<div className="flex flex-col gap-6 border-t border-verde-line pt-8 text-sm text-verde-label lg:flex-row lg:items-center lg:justify-between">
 					<div className="flex flex-col gap-1">
-						<p>{t("footer.rights", { year })}</p>
+						<p>
+							<BrandText text={t("footer.rights", { year })} tone="dark" />
+						</p>
 						<p>{t("footer.legalEntity")}</p>
 					</div>
 					<ul className="flex flex-wrap gap-x-6 gap-y-2">

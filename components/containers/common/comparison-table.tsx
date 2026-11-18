@@ -1,4 +1,5 @@
 import { Checkmark } from "@carbon/icons-react";
+import { BrandText } from "@/components/containers/common/brand-text";
 import { Reveal } from "@/components/containers/common/reveal";
 import type { ComparisonTableProps } from "@/models/interfaces/common";
 
@@ -20,7 +21,7 @@ export function ComparisonTable({
 							{usualLabel}
 						</th>
 						<th scope="col" className="w-3/8 pb-6 font-normal text-verde">
-							{oursLabel}
+							<BrandText text={oursLabel} />
 						</th>
 					</tr>
 				</thead>

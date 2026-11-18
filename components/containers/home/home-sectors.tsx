@@ -12,6 +12,7 @@ export async function HomeSectors() {
 		>
 			<Marquee
 				size="sm"
+				tone="dark"
 				items={SECTOR_KEYS.map((key) => t(`items.${key}`))}
 				className="border-y border-tinta bg-tinta py-6 text-cal"
 			/>

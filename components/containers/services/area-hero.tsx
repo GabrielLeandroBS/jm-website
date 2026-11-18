@@ -1,6 +1,7 @@
 import { ArrowLeft } from "@carbon/icons-react";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
+import { BrandLockup } from "@/components/containers/common/brand-lockup";
 import { Reveal } from "@/components/containers/common/reveal";
 import { ButtonLink } from "@/components/shared/button-link";
 import { buildWhatsappHref } from "@/lib/utils/contact-links";
@@ -31,7 +32,7 @@ export async function AreaHero({ slug }: AreaSectionProps) {
 					<div className="flex flex-col gap-8">
 						<Reveal delay={0.08}>
 							<p className="font-display text-mega font-extrabold leading-none tracking-logo">
-								j&amp;m. <span className="text-verde-muted">{name}</span>
+								<BrandLockup domain={name} tone="dark" />
 							</p>
 						</Reveal>
 						<Reveal delay={0.16}>

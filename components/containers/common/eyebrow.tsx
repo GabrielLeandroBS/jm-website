@@ -1,3 +1,4 @@
+import { BrandText } from "@/components/containers/common/brand-text";
 import { cn } from "@/lib/utils";
 import type { EyebrowProps } from "@/models/interfaces/common";
 
@@ -17,7 +18,11 @@ export function Eyebrow({ children, tone = "light", className }: EyebrowProps) {
 					tone === "light" ? "bg-verde" : "bg-lima",
 				)}
 			/>
-			{children}
+			{typeof children === "string" ? (
+				<BrandText text={children} tone={tone} />
+			) : (
+				children
+			)}
 		</p>
 	);
 }

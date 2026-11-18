@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
+import { BrandLockup } from "@/components/containers/common/brand-lockup";
 import { Reveal } from "@/components/containers/common/reveal";
 import { cn } from "@/lib/utils";
 import { AREA_SLUGS, FEATURED_AREA } from "@/models/constants/areas";
@@ -24,17 +25,11 @@ export async function HeroAreaList() {
 										: "border border-linha bg-papel text-tinta",
 								)}
 							>
-								<span className="font-display text-xl font-extrabold tracking-logo sm:text-2xl">
-									j&amp;m.{" "}
-									<span
-										className={cn(
-											"font-normal",
-											isFeatured ? "text-verde-label" : "text-cinza",
-										)}
-									>
-										{t(`${slug}.name`)}
-									</span>
-								</span>
+								<BrandLockup
+									domain={t(`${slug}.name`)}
+									tone={isFeatured ? "dark" : "light"}
+									className="font-display text-xl font-extrabold tracking-logo sm:text-2xl"
+								/>
 								{isFeatured ? (
 									<span
 										aria-hidden="true"

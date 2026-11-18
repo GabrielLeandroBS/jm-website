@@ -1,3 +1,4 @@
+import { BrandText } from "@/components/containers/common/brand-text";
 import { Eyebrow } from "@/components/containers/common/eyebrow";
 import { Reveal } from "@/components/containers/common/reveal";
 import { TwoToneHeading } from "@/components/containers/common/two-tone-heading";
@@ -29,7 +30,7 @@ export function SectionIntro({
 							tone === "light" ? "text-texto" : "text-verde-soft",
 						)}
 					>
-						{body}
+						<BrandText text={body} tone={tone} />
 					</p>
 				</Reveal>
 			)}

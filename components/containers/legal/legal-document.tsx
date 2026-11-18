@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
+import { BrandText } from "@/components/containers/common/brand-text";
 import { Reveal } from "@/components/containers/common/reveal";
 import { SITE_CONFIG } from "@/config/site";
 import {
@@ -34,7 +35,9 @@ export async function LegalDocument({ document }: LegalDocumentProps) {
 									{t(`${document}.sections.${section}.title` as never)}
 								</h2>
 								<p className="text-lg text-texto leading-relaxed">
-									{t(`${document}.sections.${section}.body` as never)}
+									<BrandText
+										text={t(`${document}.sections.${section}.body` as never)}
+									/>
 								</p>
 								{document === "terms" && section === "complaints" && (
 									<Link
