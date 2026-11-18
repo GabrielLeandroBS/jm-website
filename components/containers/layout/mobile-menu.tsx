@@ -57,7 +57,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
 							<Close aria-hidden="true" className="size-6" />
 						</button>
 					</div>
-					<nav className="container-site flex flex-1 flex-col justify-center gap-2 py-12">
+					<nav className="container-site flex flex-1 flex-col justify-start gap-2 py-12">
 						{MOBILE_NAV.map((link, index) => (
 							<motion.div
 								key={link.href}
