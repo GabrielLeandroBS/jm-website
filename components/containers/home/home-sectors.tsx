@@ -6,11 +6,11 @@ export async function HomeSectors() {
 	const t = await getTranslations("home.sectors");
 
 	return (
-		<section aria-label={t("label")} className="overflow-hidden bg-cal py-3">
+		<section aria-label={t("label")} className="overflow-hidden pt-3">
 			<Marquee
 				size="sm"
 				items={SECTOR_KEYS.map((key) => t(`items.${key}`))}
-				className="rounded-panel bg-tinta py-6 text-cal"
+				className="border-y border-tinta bg-tinta py-6 text-cal"
 			/>
 		</section>
 	);
