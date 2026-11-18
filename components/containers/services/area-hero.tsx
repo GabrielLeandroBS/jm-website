@@ -15,7 +15,7 @@ export async function AreaHero({ slug }: AreaSectionProps) {
 	const name = t(`areas.${slug}.name`);
 
 	return (
-		<section className="bg-cal pt-28 pb-6">
+		<section className="bg-cal pt-28 pb-section">
 			<div className="container-site">
 				<div className="flex min-h-[70svh] flex-col justify-between gap-16 rounded-panel bg-verde pad-panel text-cal">
 					<Reveal className="flex items-center justify-between gap-6">

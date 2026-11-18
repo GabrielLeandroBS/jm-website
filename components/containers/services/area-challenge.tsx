@@ -8,7 +8,7 @@ export async function AreaChallenge({ slug }: AreaSectionProps) {
 	const t = await getTranslations("services");
 
 	return (
-		<section className="bg-cal pb-section">
+		<section className="bg-cal py-section">
 			<div className="container-site">
 				<div className="grid gap-stack rounded-panel bg-verde pad-band text-cal lg:grid-cols-2">
 					<div className="flex flex-col gap-6">

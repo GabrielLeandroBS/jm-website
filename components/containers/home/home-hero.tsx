@@ -18,7 +18,7 @@ export async function HomeHero() {
 	]);
 
 	return (
-		<section className="bg-cal pt-24 pb-3 md:pt-28">
+		<section className="bg-cal pt-24 pb-section md:pt-28">
 			<div className="container-site grid gap-3 lg:grid-cols-12">
 				<div className="flex flex-col justify-between gap-12 rounded-panel bg-verde pad-panel text-cal lg:col-span-7 lg:min-h-[86svh]">
 					<div className="flex flex-wrap items-center justify-between gap-4">
