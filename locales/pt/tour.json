@@ -15,7 +15,7 @@
 		"eyebrow": "01 · Receção",
 		"title": "Bem-vindo.",
 		"nuance": "Fique à vontade.",
-		"body": "Não temos tabela de preços nem pacotes iguais para todos. Em três minutos mostramos-lhe como trabalhamos — e percebemos o que o seu espaço precisa.",
+		"body": "Não temos tabela de preços nem pacotes iguais para todos. Em três minutos mostramos-lhe como trabalhamos e percebemos o que o seu espaço precisa.",
 		"start": "Começar a visita",
 		"coffee": "Três minutos. Sem registo."
 	},
@@ -66,7 +66,7 @@
 		"spaceLabel": "Espaço",
 		"frequencyLabel": "Regularidade",
 		"priorityLabel": "Prioridade",
-		"empty": "—",
+		"empty": "Por definir",
 		"suggestionLabel": "A nossa sugestão",
 		"noSpace": "Volte ao passo “Espaço” e diga-nos onde vamos trabalhar.",
 		"whatsapp": "Marcar pelo WhatsApp",

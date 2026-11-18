@@ -30,7 +30,7 @@
 		"success": "Pedido recebido. Entraremos em contacto no mesmo dia útil.",
 		"failure": "Não foi possível enviar. Tente novamente ou contacte-nos pelo WhatsApp.",
 		"mailFallback": "O seu programa de email vai abrir com o pedido preenchido.",
-		"emailSubject": "Pedido de visita — {name}",
+		"emailSubject": "Pedido de visita de {name}",
 		"errors": {
 			"nameRequired": "Indique o seu nome.",
 			"emailInvalid": "Indique um email válido.",

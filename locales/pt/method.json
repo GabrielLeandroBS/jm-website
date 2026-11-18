@@ -7,7 +7,7 @@
 		"eyebrow": "O Padrão J&M",
 		"title": "Quatro etapas.",
 		"nuance": "Na sala de estar ou na nave industrial.",
-		"lead": "O que muda é a escala. A sequência, os registos e a exigência são sempre os mesmos — numa sala de estar ou numa linha de produção. É isto que torna o resultado previsível."
+		"lead": "O que muda é a escala. A sequência, os registos e a exigência são sempre os mesmos, seja numa sala de estar ou numa linha de produção. É isto que torna o resultado previsível."
 	},
 	"labels": {
 		"step": "Etapa {number, number}",
@@ -16,7 +16,7 @@
 	"steps": {
 		"observe": {
 			"title": "Observar",
-			"body": "Visitamos o espaço. Levantamos superfícies, equipamentos, riscos e horários — numa casa ou numa nave industrial.",
+			"body": "Visitamos o espaço. Levantamos superfícies, equipamentos, riscos e horários, quer seja uma casa ou uma nave industrial.",
 			"receives": "Ficha do espaço"
 		},
 		"plan": {

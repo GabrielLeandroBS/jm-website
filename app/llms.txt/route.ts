@@ -34,7 +34,7 @@ export async function GET() {
 			{
 				title: tCommon("nav.services"),
 				links: AREA_SLUGS.map((slug) => ({
-					label: `j&m. ${tServices(`areas.${slug}.name`)} — ${tServices(`areas.${slug}.title`)}`,
+					label: `j&m. ${tServices(`areas.${slug}.name`)}: ${tServices(`areas.${slug}.title`)}`,
 					url: absolute(areaRoute(slug)),
 					summary: tServices(`areas.${slug}.intro`),
 				})),

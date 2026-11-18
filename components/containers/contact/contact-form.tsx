@@ -50,7 +50,7 @@ export function ContactForm() {
 		const body = [
 			`${t("name")}: ${values.name}`,
 			`${t("email")}: ${values.email}`,
-			`${t("phone")}: ${values.phone || "—"}`,
+			`${t("phone")}: ${values.phone || "não indicado"}`,
 			`${t("space")}: ${tSpace(values.space)}`,
 			"",
 			values.message,
