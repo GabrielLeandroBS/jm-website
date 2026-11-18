@@ -18,7 +18,10 @@ export function SmoothScroll({ children }: SmoothScrollProps) {
 	}
 
 	return (
-		<ReactLenis root options={{ lerp: 0.12, wheelMultiplier: 1 }}>
+		<ReactLenis
+			root
+			options={{ lerp: 0.12, wheelMultiplier: 1, anchors: true }}
+		>
 			<ScrollToTopOnNavigate />
 			{children}
 		</ReactLenis>

@@ -24,14 +24,17 @@ export function SiteHeader() {
 
 	useMotionValueEvent(scrollY, "change", (current) => {
 		const previous = scrollY.getPrevious() ?? 0;
-		setIsHidden(current > previous && current > 240);
+		const delta = current - previous;
+		// Ignore tiny movements (touch momentum, iOS bounce) to avoid flicker.
+		if (Math.abs(delta) < 6) return;
+		setIsHidden(delta > 0 && current > 240);
 	});
 
 	return (
 		<>
 			<motion.header
 				animate={{ y: isHidden && !isMenuOpen ? "-140%" : "0%" }}
-				transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+				transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
 				className="fixed inset-x-0 top-4 z-40"
 			>
 				<div className="container-site flex items-center justify-between gap-4">

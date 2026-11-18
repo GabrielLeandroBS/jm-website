@@ -19,7 +19,7 @@ export function Marquee({
 		<div className={cn("overflow-hidden", className)} aria-hidden="true">
 			<div
 				className={cn(
-					"flex w-max animate-marquee font-display font-bold tracking-display",
+					"flex w-max animate-marquee font-display font-bold tracking-display will-change-transform",
 					SIZE_CLASSES[size],
 				)}
 			>

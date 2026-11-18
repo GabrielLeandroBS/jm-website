@@ -10,7 +10,7 @@ export function WordReveal({ lead, nuance, className }: WordRevealProps) {
 	const containerRef = useRef<HTMLParagraphElement>(null);
 	const { scrollYProgress } = useScroll({
 		target: containerRef,
-		offset: ["start 0.85", "end 0.45"],
+		offset: ["start 0.9", "end 0.65"],
 	});
 	const leadWords = lead.split(" ");
 	const words = [...leadWords, ...nuance.split(" ")];

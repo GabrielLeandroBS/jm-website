@@ -13,7 +13,7 @@ export function WordRevealWord({
 }: WordRevealWordProps) {
 	const shouldReduceMotion = useReducedMotion();
 	const start = index / total;
-	const opacity = useTransform(progress, [start, start + 1 / total], [0.12, 1]);
+	const opacity = useTransform(progress, [start, start + 1 / total], [0.2, 1]);
 
 	return (
 		<motion.span
