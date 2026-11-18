@@ -1,13 +1,13 @@
 {
 	"meta": {
 		"title": "Serviços",
-		"description": "Limpeza residencial, de empresas, pós-obra, industrial e mudanças. Cinco domínios, o mesmo padrão j&m."
+		"description": "Limpeza residencial, de empresas, pós-obra e industrial. Quatro domínios, o mesmo padrão j&m."
 	},
 	"hero": {
 		"eyebrow": "Serviços",
-		"title": "Um nome, cinco domínios.",
+		"title": "Um nome, quatro domínios.",
 		"nuance": "O padrão é sempre o mesmo.",
-		"lead": "Da sala de estar à nave industrial. Muda a escala, a equipa e o equipamento — nunca a exigência."
+		"lead": "Da sala de estar à nave industrial. Muda a escala, a equipa e o equipamento — nunca a exigência. Cada domínio tem protocolo próprio, equipa formada e um relatório no fim."
 	},
 	"labels": {
 		"brandPrefix": "j&m.",
@@ -17,14 +17,19 @@
 		"otherAreas": "Outros domínios",
 		"seeArea": "Ver j&m. {area}",
 		"allServices": "Todos os serviços",
-		"metaTitle": "j&m. {area} — {title}"
+		"metaTitle": "j&m. {area} — {title}",
+		"challenge": "O desafio",
+		"approach": "Como trabalhamos aqui",
+		"deliverables": "O que recebe",
+		"areaFaq": "Perguntas sobre j&m. {area}",
+		"step": "Etapa {number, number}"
 	},
 	"included": {
 		"title": "Em todos os domínios.",
 		"nuance": "Sem exceção.",
 		"visit": "Visita prévia ao espaço, sem compromisso",
 		"proposal": "Proposta escrita e fechada",
-		"team": "Equipa formada, identificada e segura",
+		"team": "Equipa formada e identificada",
 		"report": "Relatório com antes e depois"
 	},
 	"areas": {
@@ -36,12 +41,42 @@
 			"audience": "Famílias com pouco tempo, casas com peças delicadas e proprietários de segundas habitações.",
 			"items": {
 				"one": "Limpeza recorrente, semanal ou quinzenal",
-				"two": "Limpeza profunda de entrada ou de mudança de estação",
+				"two": "Limpeza profunda inicial ou sazonal",
 				"three": "Preparação de segundas habitações antes da chegada",
 				"four": "Cuidado com materiais nobres: madeira, pedra, metais",
 				"five": "Gestão de chaves com registo"
 			},
-			"highlight": "A mesma equipa, todas as vezes."
+			"highlight": "A mesma equipa, todas as vezes.",
+			"challenge": {
+				"title": "Confiar a casa a alguém é uma decisão pessoal.",
+				"body": "Não se trata só de limpar. Trata-se de quem entra, quando entra e como deixa as coisas. Uma peça de madeira mal tratada ou uma equipa diferente a cada semana bastam para quebrar a confiança. Por isso trabalhamos sempre com as mesmas pessoas, com registo de chaves e com instruções escritas para cada casa."
+			},
+			"approach": {
+				"observe": "Visitamos a casa consigo. Anotamos materiais, divisões, peças delicadas, animais e rotinas.",
+				"plan": "Definimos a frequência, a equipa e uma lista por divisão. Fica tudo na proposta, por escrito.",
+				"execute": "A mesma equipa, à mesma hora. Produtos adequados a cada superfície e nada fora do lugar.",
+				"close": "Verificação por divisão e uma nota no fim de cada visita. Se algo mudou, sabe primeiro."
+			},
+			"deliverables": {
+				"one": "Plano de limpeza por divisão",
+				"two": "Registo de entrega e devolução de chaves",
+				"three": "Equipa fixa, apresentada antes da primeira visita",
+				"four": "Nota de visita com o que foi feito"
+			},
+			"faq": {
+				"one": {
+					"question": "Tenho de estar em casa?",
+					"answer": "Não. Muitos clientes entregam-nos as chaves. Cada entrega e devolução fica registada e só a equipa atribuída tem acesso."
+				},
+				"two": {
+					"question": "Usam os meus produtos ou os vossos?",
+					"answer": "Levamos os nossos, adequados a cada superfície. Se preferir que usemos produtos seus, fica indicado no plano."
+				},
+				"three": {
+					"question": "E se tiver animais?",
+					"answer": "Indique-nos na visita. Ajustamos horários, produtos e acessos para que a rotina deles também não seja interrompida."
+				}
+			}
 		},
 		"empresas": {
 			"name": "empresas",
@@ -56,7 +91,37 @@
 				"four": "Plano por zonas com verificação mensal",
 				"five": "Faturação mensal clara, sem extras escondidos"
 			},
-			"highlight": "Fora de horas. Sem interromper ninguém."
+			"highlight": "Fora de horas. Sem interromper ninguém.",
+			"challenge": {
+				"title": "O espaço de trabalho fala antes de qualquer pessoa.",
+				"body": "Uma receção com pó, uma casa de banho por repor ou uma montra baça dizem mais sobre a empresa do que qualquer apresentação. E ninguém quer uma equipa de limpeza a atravessar uma reunião. Trabalhamos fora de horas, por zonas, com verificação mensal — para que só se note o resultado."
+			},
+			"approach": {
+				"observe": "Percorremos o espaço com o responsável. Mapeamos zonas, horários, acessos, alarmes e pontos críticos.",
+				"plan": "Plano por zonas e por frequência, com janela fora do horário de funcionamento e custo mensal fechado.",
+				"execute": "Equipa identificada, procedimento escrito por zona e reposição de consumíveis quando acordada.",
+				"close": "Verificação mensal com o responsável e registo das ocorrências. O plano ajusta-se ao que o espaço pede."
+			},
+			"deliverables": {
+				"one": "Plano de limpeza por zonas",
+				"two": "Verificação mensal documentada",
+				"three": "Faturação mensal, sem extras escondidos",
+				"four": "Um contacto único para qualquer ajuste"
+			},
+			"faq": {
+				"one": {
+					"question": "Trabalham fora do horário de expediente?",
+					"answer": "Sim, é o habitual. Antes da abertura, depois do fecho ou ao fim de semana, conforme o espaço."
+				},
+				"two": {
+					"question": "Repõem papel, sabonete e consumíveis?",
+					"answer": "Podemos repor e gerir o stock, se for acordado na proposta. Fica discriminado na faturação."
+				},
+				"three": {
+					"question": "Há fidelização mínima?",
+					"answer": "As condições ficam na proposta escrita. [Confirmar prazo mínimo e aviso prévio antes de publicar]."
+				}
+			}
 		},
 		"obra": {
 			"name": "obra",
@@ -71,7 +136,37 @@
 				"four": "Preparação final para entrega das chaves",
 				"five": "Cumprimento rigoroso do calendário da obra"
 			},
-			"highlight": "Entregue no dia marcado."
+			"highlight": "Entregue no dia marcado.",
+			"challenge": {
+				"title": "Uma obra só acaba quando se pode usar.",
+				"body": "Pó fino em cada calha, restos de tinta nos vidros, silicone nos pavimentos. É o último passo da obra e o primeiro que o cliente final vê. Trabalhamos com o calendário da construtora, em fases quando é preciso, para que a entrega das chaves aconteça no dia marcado."
+			},
+			"approach": {
+				"observe": "Visita à obra em fase final. Avaliamos áreas, materiais, acessos, resíduos e o prazo de entrega.",
+				"plan": "Plano por fases ou de uma só vez, alinhado com o calendário da obra e com os outros trabalhos ainda em curso.",
+				"execute": "Remoção de resíduos e poeiras, limpeza detalhada de caixilharias, vidros e pavimentos, com equipamento próprio.",
+				"close": "Vistoria final com o responsável da obra, fotografias e relatório para a entrega das chaves."
+			},
+			"deliverables": {
+				"one": "Plano alinhado com o calendário da obra",
+				"two": "Remoção de resíduos e poeiras finas",
+				"three": "Vistoria final com fotografias",
+				"four": "Relatório para a entrega das chaves"
+			},
+			"faq": {
+				"one": {
+					"question": "Podem trabalhar por fases?",
+					"answer": "Sim. Em obras grandes, limpamos frações ou pisos à medida que ficam concluídos."
+				},
+				"two": {
+					"question": "Levam os resíduos?",
+					"answer": "Removemos os resíduos de limpeza. O destino dos resíduos de construção é acordado com a obra na proposta."
+				},
+				"three": {
+					"question": "Há risco para materiais novos?",
+					"answer": "Usamos produtos e utensílios adequados a cada acabamento — pedra, madeira, alumínio, vidro — e testamos antes em zona discreta."
+				}
+			}
 		},
 		"industria": {
 			"name": "indústria",
@@ -86,22 +181,77 @@
 				"four": "Intervenções fora do horário de produção",
 				"five": "Relatório técnico com registo fotográfico"
 			},
-			"highlight": "A máquina limpa trabalha melhor e dura mais."
-		},
-		"mudancas": {
-			"name": "mudanças",
-			"title": "Mudanças residenciais e comerciais",
-			"short": "Casas e empresas, com limpeza à chegada.",
-			"intro": "Uma mudança bem feita é aquela em que, no primeiro dia, tudo já está no lugar e limpo. Embalamos, transportamos e deixamos os dois espaços prontos.",
-			"audience": "Famílias e empresas em mudança de instalações.",
-			"items": {
-				"one": "Embalagem adequada de móveis, equipamentos e bens",
-				"two": "Transporte com cuidado e seguro",
-				"three": "Limpeza do espaço de saída",
-				"four": "Limpeza e arrumação no espaço de chegada",
-				"five": "Calendário fechado, sem dias perdidos"
+			"highlight": "A máquina limpa trabalha melhor e dura mais.",
+			"challenge": {
+				"title": "Numa fábrica, a sujidade nunca é só sujidade.",
+				"body": "É óleo num rolamento, um filtro saturado, uma linha que perde rendimento sem aviso. A limpeza técnica industrial exige método, segurança e registo: bloqueio de energia, EPI adequado, desmontagem cuidada e um relatório que a manutenção possa usar. É aqui que a j&m. nasceu para a indústria."
 			},
-			"highlight": "Dois espaços, uma só equipa."
+			"approach": {
+				"observe": "Visita técnica com a manutenção. Levantamos máquinas, riscos, componentes, filtros e janelas de paragem.",
+				"plan": "Plano de intervenção com sequência, equipa, EPI, consignação de energia e calendário fora do horário de produção.",
+				"execute": "Desmontagem, limpeza profunda de componentes, substituição programada de filtros e montagem com verificação.",
+				"close": "Relatório técnico com registo fotográfico, observações para a manutenção e a data recomendada para a próxima intervenção."
+			},
+			"deliverables": {
+				"one": "Plano de intervenção por máquina",
+				"two": "Procedimento de segurança e consignação",
+				"three": "Relatório técnico com fotografias",
+				"four": "Calendário de substituição de filtros"
+			},
+			"faq": {
+				"one": {
+					"question": "Têm de parar a produção?",
+					"answer": "Planeamos as intervenções para noites, fins de semana ou paragens programadas, em acordo com a manutenção."
+				},
+				"two": {
+					"question": "Que procedimentos de segurança seguem?",
+					"answer": "EPI conforme o risco, consignação e bloqueio de energia antes de qualquer desmontagem e procedimentos escritos por máquina."
+				},
+				"three": {
+					"question": "Que máquinas limpam?",
+					"answer": "Máquinas industriais em geral e, em particular, máquinas de polimento: desmontagem, limpeza de componentes e filtros."
+				}
+			}
 		}
+	},
+	"chooser": {
+		"eyebrow": "Como escolher",
+		"title": "Não sabe por onde começar?",
+		"nuance": "Comece pelo espaço.",
+		"items": {
+			"casa": "Tenho uma casa, uma segunda habitação ou pouco tempo.",
+			"empresas": "Giro um escritório, uma loja, uma clínica ou um showroom.",
+			"obra": "Terminei uma obra ou uma remodelação e preciso de entregar.",
+			"industria": "Tenho máquinas, uma linha de produção ou uma nave industrial."
+		}
+	},
+	"frequencies": {
+		"eyebrow": "Regularidade",
+		"title": "Uma vez, ou para sempre.",
+		"nuance": "Decide o espaço.",
+		"items": {
+			"once": {
+				"title": "Intervenção única",
+				"body": "Limpeza profunda, pós-obra ou preparação de um espaço para uma data. Começa e acaba com relatório."
+			},
+			"recurring": {
+				"title": "Rotina semanal",
+				"body": "Casas e escritórios com visitas fixas, a mesma equipa e um plano que não muda sem aviso."
+			},
+			"monthly": {
+				"title": "Manutenção mensal",
+				"body": "Zonas técnicas, vidros, montras e equipamentos que pedem ciclo próprio, com verificação no fim de cada mês."
+			},
+			"contract": {
+				"title": "Contrato contínuo",
+				"body": "Para empresas e indústria: calendário anual, janelas de paragem acordadas e relatórios por intervenção."
+			}
+		}
+	},
+	"faq": {
+		"eyebrow": "Antes de marcar",
+		"title": "O que costumam perguntar.",
+		"nuance": "E as respostas.",
+		"cta": "Ver todas as perguntas"
 	}
 }

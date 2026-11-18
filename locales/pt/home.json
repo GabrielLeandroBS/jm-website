@@ -6,17 +6,46 @@
 		"eyebrow": "Limpeza & manutenção · desde 2016",
 		"title": "Limpo.",
 		"nuance": "Ponto final.",
-		"lead": "Para quem repara nos detalhes. De uma casa a uma fábrica, com o mesmo padrão — e sem precisar de o anunciar.",
+		"lead": "Limpeza e manutenção para quem repara nos detalhes. De uma casa a uma fábrica, com a mesma equipa, um método escrito e um relatório no fim de cada intervenção.",
 		"panelLabel": "Da casa à fábrica",
-		"panelFooter": "Um nome. Um padrão. Qualquer espaço.",
-		"scroll": "Deslize para conhecer"
+		"badge": "Por marcação · Portugal continental",
+		"statsLabel": "Em números",
+		"stats": {
+			"since": {
+				"value": "2016",
+				"label": "Ano da primeira casa"
+			},
+			"domains": {
+				"value": "4",
+				"label": "Domínios, um só padrão"
+			},
+			"campaigns": {
+				"value": "0",
+				"label": "Campanhas publicitárias"
+			}
+		},
+		"report": {
+			"label": "Registo de intervenção",
+			"sample": "Exemplo",
+			"reference": "REF. JM-0417 · Linha 03",
+			"title": "Linha de polimento",
+			"domain": "indústria",
+			"rows": {
+				"dismantle": "Desmontagem e limpeza de componentes",
+				"filters": "Filtros substituídos · 6/6",
+				"photos": "Fotografias antes e depois",
+				"report": "Relatório assinado e entregue"
+			},
+			"status": "Estado: concluído",
+			"next": "Próxima intervenção agendada"
+		}
 	},
 	"statement": {
 		"lead": "Nunca dissemos que somos os melhores.",
-		"nuance": "Os espaços que limpamos dizem-no por nós."
+		"nuance": "Deixamos que os espaços falem por nós."
 	},
 	"domains": {
-		"eyebrow": "Cinco domínios",
+		"eyebrow": "Quatro domínios",
 		"title": "Do primeiro degrau",
 		"nuance": "à última linha de produção.",
 		"intro": "A marca nunca muda. Muda a escala, a equipa e o equipamento. O padrão é sempre o mesmo."
@@ -33,7 +62,7 @@
 			"label": "Ano em que tudo começou, numa casa."
 		},
 		"domains": {
-			"value": "5",
+			"value": "4",
 			"label": "Domínios, da casa à indústria."
 		},
 		"coverage": {
@@ -70,8 +99,99 @@
 	},
 	"cta": {
 		"eyebrow": "Por marcação",
-		"title": "Está tratado.",
-		"nuance": "Só falta marcar.",
-		"body": "Uma visita, sem compromisso. A proposta segue por escrito, sem letras pequenas."
+		"title": "O primeiro passo é uma visita.",
+		"nuance": "Sem compromisso.",
+		"body": "Vamos ao local, percebemos o que o espaço precisa e enviamos a proposta por escrito, sem letras pequenas."
+	},
+	"sectors": {
+		"label": "Onde trabalhamos",
+		"items": {
+			"homes": "Moradias",
+			"apartments": "Apartamentos",
+			"offices": "Escritórios",
+			"stores": "Lojas",
+			"clinics": "Clínicas",
+			"showrooms": "Showrooms",
+			"postWorks": "Pós-obra",
+			"renovations": "Remodelações",
+			"metalworking": "Metalomecânica",
+			"polishing": "Linhas de polimento",
+			"plants": "Naves industriais"
+		}
+	},
+	"audiences": {
+		"eyebrow": "Para quem",
+		"title": "Quatro clientes.",
+		"nuance": "A mesma exigência.",
+		"intro": "Cada domínio tem a sua equipa e o seu protocolo. O que se espera de nós é sempre o mesmo: chegar à hora, fazer bem e deixar registo.",
+		"items": {
+			"house": {
+				"label": "Casa",
+				"title": "A família sem tempo",
+				"body": "Quer confiar as chaves a quem não precisa de supervisão. Valoriza discrição, materiais bem tratados e a mesma equipa em cada visita."
+			},
+			"business": {
+				"label": "Empresas",
+				"title": "O gestor do espaço",
+				"body": "Escritórios, lojas e clínicas prontos antes de abrir. Quer um plano por zonas, faturas claras e nenhuma reclamação interna."
+			},
+			"construction": {
+				"label": "Obra",
+				"title": "A construtora",
+				"body": "Entrega de chaves no dia marcado. Precisa de uma equipa que respeite o calendário da obra e deixe cada superfície pronta a usar."
+			},
+			"industry": {
+				"label": "Indústria",
+				"title": "O diretor de produção",
+				"body": "Máquinas paradas custam dinheiro. Quer método, segurança, registos técnicos e intervenções fora do horário de produção."
+			}
+		}
+	},
+	"difference": {
+		"eyebrow": "Porquê a j&m.",
+		"title": "O que muda",
+		"nuance": "quando o padrão não muda.",
+		"intro": "Não dizemos que somos diferentes. Mostramos onde.",
+		"topicLabel": "Critério",
+		"usualLabel": "O habitual",
+		"oursLabel": "O padrão j&m.",
+		"rows": {
+			"price": {
+				"topic": "Preço",
+				"usual": "Tabela genérica, extras no fim",
+				"ours": "Proposta escrita após visita, com valor fechado"
+			},
+			"team": {
+				"topic": "Equipa",
+				"usual": "Pessoas diferentes a cada visita",
+				"ours": "A mesma equipa, sempre que possível"
+			},
+			"schedule": {
+				"topic": "Horário",
+				"usual": "Quando der jeito à empresa",
+				"ours": "À volta da sua rotina ou da sua produção"
+			},
+			"scope": {
+				"topic": "Detalhe",
+				"usual": "Limpeza à superfície",
+				"ours": "O rodapé, o filtro, o canto atrás da máquina"
+			},
+			"proof": {
+				"topic": "Prova",
+				"usual": "“Confie em nós.”",
+				"ours": "Relatório, fotografias e registo do que foi feito"
+			},
+			"tone": {
+				"topic": "Contacto",
+				"usual": "Promoções e urgências",
+				"ours": "Por marcação, com prazos exatos"
+			}
+		}
+	},
+	"faq": {
+		"eyebrow": "Perguntas frequentes",
+		"title": "Respostas curtas.",
+		"nuance": "Sem letras pequenas.",
+		"cta": "Ver todas as perguntas"
 	}
 }

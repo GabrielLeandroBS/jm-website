@@ -14,17 +14,17 @@ export async function HeroAreaList() {
 				const isFeatured = slug === FEATURED_AREA;
 				return (
 					<li key={slug}>
-						<Reveal delay={0.3 + index * 0.08} y={16}>
+						<Reveal delay={0.3 + index * 0.06} y={12}>
 							<Link
 								href={areaRoute(slug)}
 								className={cn(
-									"flex items-center justify-between rounded-2xl px-5 py-4 transition-[transform,background-color] duration-500 ease-calm hover:translate-x-1 focus-visible:outline-2 focus-visible:outline-verde",
+									"flex min-h-14 items-center justify-between rounded-2xl px-5 py-3 transition-[transform,background-color] duration-500 ease-calm hover:translate-x-1 focus-visible:outline-2 focus-visible:outline-verde",
 									isFeatured
 										? "bg-verde text-cal"
 										: "border border-linha bg-papel text-tinta",
 								)}
 							>
-								<span className="font-display text-2xl font-extrabold tracking-logo">
+								<span className="font-display text-xl font-extrabold tracking-logo sm:text-2xl">
 									j&amp;m.{" "}
 									<span
 										className={cn(

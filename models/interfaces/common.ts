@@ -98,6 +98,7 @@ export interface BeforeAfterProps {
 
 export interface MarqueeProps {
 	items: readonly string[];
+	size?: "sm" | "lg";
 	className?: string;
 }
 
@@ -122,4 +123,59 @@ export interface SectionIntroProps {
 
 export interface LegalDocumentProps {
 	document: "privacy" | "cookies" | "terms";
+}
+
+export interface ContentItem {
+	key: string;
+	marker?: string;
+	title: string;
+	body: string;
+}
+
+export interface NumberedGridProps {
+	items: readonly ContentItem[];
+	columns?: 2 | 3 | 4;
+	tone?: Tone;
+}
+
+export interface ComparisonRow {
+	key: string;
+	topic: string;
+	usual: string;
+	ours: string;
+}
+
+export interface ComparisonTableProps {
+	topicLabel: string;
+	usualLabel: string;
+	oursLabel: string;
+	rows: readonly ComparisonRow[];
+}
+
+export interface FaqEntry {
+	key: string;
+	question: string;
+	answer: string;
+}
+
+export interface FaqListProps {
+	items: readonly FaqEntry[];
+}
+
+export interface TimelineProps {
+	items: readonly ContentItem[];
+	tone?: Tone;
+}
+
+export interface FaqTeaserProps {
+	eyebrow: string;
+	title: string;
+	nuance: string;
+	cta: string;
+	items: readonly FaqEntry[];
+}
+
+export interface FaqGroupProps {
+	title: string;
+	items: readonly FaqEntry[];
 }

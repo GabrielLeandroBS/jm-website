@@ -3,11 +3,15 @@ import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import { CtaBand } from "@/components/containers/common/cta-band";
 import { SectionIntro } from "@/components/containers/common/section-intro";
+import { AreaApproach } from "@/components/containers/services/area-approach";
+import { AreaChallenge } from "@/components/containers/services/area-challenge";
 import { AreaDetail } from "@/components/containers/services/area-detail";
+import { AreaFaq } from "@/components/containers/services/area-faq";
 import { AreaGrid } from "@/components/containers/services/area-grid";
 import { AreaHero } from "@/components/containers/services/area-hero";
 import { IncludedSection } from "@/components/containers/services/included-section";
 import { isAreaSlug } from "@/lib/utils/area";
+import { buildPageMetadata } from "@/lib/utils/page-metadata";
 import { AREA_SLUGS } from "@/models/constants/areas";
 import { areaRoute } from "@/models/constants/routes";
 import type { AreaPageProps } from "@/models/interfaces/services";
@@ -22,14 +26,14 @@ export async function generateMetadata({
 	const { area } = await params;
 	if (!isAreaSlug(area)) return {};
 	const t = await getTranslations("services");
-	return {
+	return buildPageMetadata({
 		title: t("labels.metaTitle", {
 			area: t(`areas.${area}.name`),
 			title: t(`areas.${area}.title`),
 		}),
 		description: t(`areas.${area}.intro`),
-		alternates: { canonical: areaRoute(area) },
-	};
+		path: areaRoute(area),
+	});
 }
 
 export default async function AreaPage({ params }: AreaPageProps) {
@@ -45,8 +49,11 @@ export default async function AreaPage({ params }: AreaPageProps) {
 	return (
 		<>
 			<AreaHero slug={area} />
+			<AreaChallenge slug={area} />
 			<AreaDetail slug={area} />
+			<AreaApproach slug={area} />
 			<IncludedSection />
+			<AreaFaq slug={area} />
 			<section className="bg-cal pt-section">
 				<div className="container-site flex flex-col gap-12">
 					<SectionIntro

@@ -69,13 +69,19 @@
 	"notFound": {
 		"eyebrow": "Erro 404",
 		"title": "Este espaço está vazio.",
-		"nuance": "Até nós ficámos surpreendidos.",
+		"nuance": "Nada a limpar por aqui.",
 		"body": "A página que procura não existe ou mudou de lugar."
 	},
 	"error": {
 		"title": "Algo não correu como devia.",
-		"nuance": "Já estamos a tratar.",
+		"nuance": "Tente novamente dentro de instantes.",
 		"retry": "Tentar novamente",
 		"eyebrow": "Erro"
+	},
+	"og": {
+		"eyebrow": "Limpeza & manutenção",
+		"footer": "Desde 2016 · Por marcação · Portugal",
+		"alt": "j&m. — Limpo. Ponto final. Limpeza e manutenção, de uma casa a uma fábrica.",
+		"areaAlt": "j&m. {area} — {title}"
 	}
 }

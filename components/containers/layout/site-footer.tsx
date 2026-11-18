@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { Logo } from "@/components/containers/common/logo";
 import { FooterColumn } from "@/components/containers/layout/footer-column";
 import { SITE_CONFIG } from "@/config/site";
+import { cn } from "@/lib/utils";
 import { buildPhoneHref } from "@/lib/utils/contact-links";
 import { getCurrentYear } from "@/lib/utils/current-year";
 import { AREA_SLUGS } from "@/models/constants/areas";
@@ -27,13 +28,19 @@ export async function SiteFooter() {
 			<div className="container-site flex flex-col gap-20 pt-24 pb-10">
 				<div className="flex flex-col justify-between gap-16 lg:flex-row">
 					<div className="flex max-w-sm flex-col gap-6">
-						<Logo className="text-6xl" />
+						<Logo className="self-start text-6xl" />
 						<p className="text-lg text-verde-soft">{t("footer.tagline")}</p>
-						<div className="flex flex-col gap-1 font-mono text-sm text-verde-label">
-							<a href={buildPhoneHref()} className={LINK_CLASS}>
+						<div className="flex flex-col items-start font-mono text-sm text-verde-label">
+							<a
+								href={buildPhoneHref()}
+								className={cn(LINK_CLASS, "inline-flex min-h-11 items-center")}
+							>
 								{SITE_CONFIG.phoneDisplay}
 							</a>
-							<a href={`mailto:${SITE_CONFIG.email}`} className={LINK_CLASS}>
+							<a
+								href={`mailto:${SITE_CONFIG.email}`}
+								className={cn(LINK_CLASS, "inline-flex min-h-11 items-center")}
+							>
 								{SITE_CONFIG.email}
 							</a>
 						</div>

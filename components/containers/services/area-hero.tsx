@@ -21,7 +21,7 @@ export async function AreaHero({ slug }: AreaSectionProps) {
 					<Reveal className="flex items-center justify-between gap-6">
 						<Link
 							href={ROUTES.services}
-							className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-label text-verde-label transition-colors hover:text-cal focus-visible:outline-2 focus-visible:outline-lima"
+							className="inline-flex min-h-11 items-center gap-2 font-mono text-xs uppercase tracking-label text-verde-label transition-colors hover:text-cal focus-visible:outline-2 focus-visible:outline-lima"
 						>
 							<ArrowLeft aria-hidden="true" className="size-4" />
 							{t("labels.allServices")}

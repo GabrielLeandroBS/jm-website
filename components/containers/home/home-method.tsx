@@ -33,7 +33,7 @@ export async function HomeMethod() {
 					<Reveal delay={0.24}>
 						<Link
 							href={ROUTES.method}
-							className="group inline-flex items-center gap-2 text-base text-lima focus-visible:outline-2 focus-visible:outline-lima"
+							className="group inline-flex min-h-11 items-center gap-2 text-base text-lima focus-visible:outline-2 focus-visible:outline-lima"
 						>
 							{tCommon("learnMethod")}
 							<ArrowRight

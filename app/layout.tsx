@@ -18,20 +18,34 @@ export async function generateMetadata(): Promise<Metadata> {
 		title: { default: t("title"), template: t("titleTemplate") },
 		description: t("description"),
 		applicationName: SITE_CONFIG.name,
+		authors: [{ name: SITE_CONFIG.legalName, url: SITE_CONFIG.url }],
+		creator: SITE_CONFIG.legalName,
+		publisher: SITE_CONFIG.legalName,
+		category: "business",
+		formatDetection: { telephone: true, email: true, address: false },
+		robots: { index: true, follow: true },
 		openGraph: {
 			type: "website",
 			locale: "pt_PT",
 			siteName: SITE_CONFIG.name,
 			title: t("title"),
 			description: t("description"),
+			url: "/",
 		},
-		twitter: { card: "summary_large_image" },
+		twitter: {
+			card: "summary_large_image",
+			title: t("title"),
+			description: t("description"),
+		},
 		alternates: { canonical: "/" },
 	};
 }
 
 export const viewport: Viewport = {
 	themeColor: SITE_CONFIG.themeColor,
+	width: "device-width",
+	initialScale: 1,
+	viewportFit: "cover",
 };
 
 export default async function RootLayout({ children }: LayoutProps<"/">) {

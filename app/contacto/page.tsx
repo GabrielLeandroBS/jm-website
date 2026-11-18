@@ -4,15 +4,16 @@ import { PageHero } from "@/components/containers/common/page-hero";
 import { Reveal } from "@/components/containers/common/reveal";
 import { ContactChannels } from "@/components/containers/contact/contact-channels";
 import { ContactForm } from "@/components/containers/contact/contact-form";
+import { buildPageMetadata } from "@/lib/utils/page-metadata";
 import { ROUTES } from "@/models/constants/routes";
 
 export async function generateMetadata(): Promise<Metadata> {
 	const t = await getTranslations("contact.meta");
-	return {
+	return buildPageMetadata({
 		title: t("title"),
 		description: t("description"),
-		alternates: { canonical: ROUTES.contact },
-	};
+		path: ROUTES.contact,
+	});
 }
 
 export default async function ContactPage() {

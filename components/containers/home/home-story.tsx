@@ -35,7 +35,7 @@ export async function HomeStory() {
 					<Reveal delay={0.24}>
 						<Link
 							href={ROUTES.about}
-							className="group inline-flex items-center gap-2 font-medium text-verde focus-visible:outline-2 focus-visible:outline-verde"
+							className="group inline-flex min-h-11 items-center gap-2 font-medium text-verde focus-visible:outline-2 focus-visible:outline-verde"
 						>
 							{tCommon("nav.about")}
 							<ArrowRight

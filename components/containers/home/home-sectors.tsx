@@ -1,0 +1,17 @@
+import { getTranslations } from "next-intl/server";
+import { Marquee } from "@/components/containers/common/marquee";
+import { SECTOR_KEYS } from "@/models/constants/content-keys";
+
+export async function HomeSectors() {
+	const t = await getTranslations("home.sectors");
+
+	return (
+		<section aria-label={t("label")} className="overflow-hidden bg-cal py-3">
+			<Marquee
+				size="sm"
+				items={SECTOR_KEYS.map((key) => t(`items.${key}`))}
+				className="rounded-panel bg-tinta py-6 text-cal"
+			/>
+		</section>
+	);
+}

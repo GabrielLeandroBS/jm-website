@@ -17,7 +17,7 @@
 		"nuance": "Fique à vontade.",
 		"body": "Não temos tabela de preços nem pacotes iguais para todos. Em três minutos mostramos-lhe como trabalhamos — e percebemos o que o seu espaço precisa.",
 		"start": "Começar a visita",
-		"coffee": "O café é por nossa conta."
+		"coffee": "Três minutos. Sem registo."
 	},
 	"space": {
 		"eyebrow": "02 · O seu espaço",
@@ -32,8 +32,7 @@
 			"office": "Escritório",
 			"store": "Loja",
 			"construction": "Obra acabada",
-			"factory": "Fábrica",
-			"moving": "Mudança"
+			"factory": "Fábrica"
 		},
 		"frequencies": {
 			"once": "Uma vez",
@@ -60,8 +59,8 @@
 	},
 	"proposal": {
 		"eyebrow": "05 · A proposta",
-		"title": "Está tratado.",
-		"nuance": "Só falta marcar.",
+		"title": "A sua ficha está pronta.",
+		"nuance": "Só falta marcar a visita.",
 		"body": "Este é o ponto de partida. O plano final define-se no local, numa visita sem compromisso.",
 		"sheetTitle": "Ficha de visita",
 		"spaceLabel": "Espaço",
@@ -79,8 +78,7 @@
 			"office": "Intervenções fora de horas, com plano por zonas e verificação mensal.",
 			"store": "Limpeza antes da abertura, com montra e superfícies de contacto em primeiro lugar.",
 			"construction": "Remoção de resíduos, limpeza detalhada e preparação final para a entrega das chaves.",
-			"factory": "Limpeza técnica de máquinas: desmontagem, componentes e substituição programada de filtros, fora do horário de produção.",
-			"moving": "Embalagem e transporte, com limpeza do espaço de saída e do de chegada."
+			"factory": "Limpeza técnica de máquinas: desmontagem, componentes e substituição programada de filtros, fora do horário de produção."
 		}
 	},
 	"nav": {

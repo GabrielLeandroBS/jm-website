@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
-import { TourStageHeader } from "@/components/containers/tour/tour-stage-header";
 import { MethodStepCard } from "@/components/containers/method/method-step-card";
+import { TourStageHeader } from "@/components/containers/tour/tour-stage-header";
 import { METHOD_STEPS } from "@/models/constants/content-keys";
 
 export function TourMethod() {

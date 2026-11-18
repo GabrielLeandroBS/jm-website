@@ -13,7 +13,7 @@ export async function AreaGrid({ exclude }: AreaGridProps) {
 	const slugs = AREA_SLUGS.filter((slug) => slug !== exclude);
 
 	return (
-		<ul className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
+		<ul className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
 			{slugs.map((slug, index) => (
 				<li key={slug}>
 					<Reveal delay={index * 0.08} className="h-full">

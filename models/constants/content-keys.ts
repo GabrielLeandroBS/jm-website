@@ -60,7 +60,14 @@ export const TEAM_ROLE_KEYS = [
 
 export const TEAM_PRINCIPLE_KEYS = ["trust", "training", "stability"] as const;
 
-export const CAREER_WHY_KEYS = ["stable", "training", "respect"] as const;
+export const CAREER_WHY_KEYS = [
+	"stable",
+	"training",
+	"respect",
+	"contract",
+	"equipment",
+	"growth",
+] as const;
 
 export const CAREER_PROFILE_KEYS = [
 	"care",
@@ -69,7 +76,12 @@ export const CAREER_PROFILE_KEYS = [
 	"license",
 ] as const;
 
-export const CAREER_PROCESS_KEYS = ["send", "talk", "shadow"] as const;
+export const CAREER_PROCESS_KEYS = [
+	"send",
+	"talk",
+	"shadow",
+	"onboarding",
+] as const;
 
 export const FAQ_GROUPS = {
 	general: ["coverage", "spaces", "sameTeam"],
@@ -107,5 +119,150 @@ export const CONTACT_SPACE_KEYS = [
 	"store",
 	"construction",
 	"factory",
-	"moving",
+] as const;
+
+export const HERO_STAT_KEYS = ["since", "domains", "campaigns"] as const;
+
+export const HERO_REPORT_ROW_KEYS = [
+	"dismantle",
+	"filters",
+	"photos",
+	"report",
+] as const;
+
+export const SECTOR_KEYS = [
+	"homes",
+	"apartments",
+	"offices",
+	"stores",
+	"clinics",
+	"showrooms",
+	"postWorks",
+	"renovations",
+	"metalworking",
+	"polishing",
+	"plants",
+] as const;
+
+export const AUDIENCE_KEYS = [
+	"house",
+	"business",
+	"construction",
+	"industry",
+] as const;
+
+export const DIFFERENCE_KEYS = [
+	"price",
+	"team",
+	"schedule",
+	"scope",
+	"proof",
+	"tone",
+] as const;
+
+export const HOME_FAQ_PATHS = [
+	"booking.items.price",
+	"booking.items.visit",
+	"general.items.sameTeam",
+	"industry.items.downtime",
+] as const;
+
+export const SERVICES_FAQ_PATHS = [
+	"general.items.coverage",
+	"booking.items.lead",
+	"safety.items.insurance",
+	"safety.items.products",
+] as const;
+
+export const METHOD_FAQ_PATHS = [
+	"booking.items.visit",
+	"industry.items.report",
+	"safety.items.products",
+	"general.items.sameTeam",
+] as const;
+
+export const FREQUENCY_KEYS = [
+	"once",
+	"recurring",
+	"monthly",
+	"contract",
+] as const;
+
+export const AREA_FAQ_KEYS = ["one", "two", "three"] as const;
+
+export const AREA_DELIVERABLE_KEYS = ["one", "two", "three", "four"] as const;
+
+export const COMMITMENT_KEYS = [
+	"proposal",
+	"team",
+	"schedule",
+	"report",
+	"keys",
+	"discretion",
+] as const;
+
+export const COVERAGE_POINT_KEYS = ["booking", "visit", "industry"] as const;
+
+export const TEAM_DAY_KEYS = [
+	"arrive",
+	"brief",
+	"work",
+	"check",
+	"close",
+] as const;
+
+export const TEAM_TRAINING_KEYS = [
+	"shadow",
+	"protocols",
+	"materials",
+	"safety",
+	"conduct",
+	"review",
+] as const;
+
+export const UNIFORM_KEYS = ["clean", "domain", "equipment", "logo"] as const;
+
+export const CAREER_ROLE_KEYS = [
+	"homes",
+	"construction",
+	"industry",
+	"quality",
+] as const;
+
+export const CAREER_FIRST_MONTH_KEYS = [
+	"week1",
+	"week2",
+	"week3",
+	"week4",
+] as const;
+
+export const CAREER_FAQ_KEYS = [
+	"experience",
+	"license",
+	"hours",
+	"partTime",
+	"location",
+] as const;
+
+export const CAREER_APPLY_KEYS = [
+	"name",
+	"zone",
+	"availability",
+	"note",
+] as const;
+
+export const METHOD_RECORD_KEYS = [
+	"sheet",
+	"proposal",
+	"log",
+	"report",
+] as const;
+
+export const METHOD_CHECKLIST_KEYS = [
+	"zones",
+	"details",
+	"equipment",
+	"photos",
+	"report",
+	"next",
 ] as const;

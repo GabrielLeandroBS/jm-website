@@ -15,7 +15,6 @@ export const TOUR_SPACES = [
 	"store",
 	"construction",
 	"factory",
-	"moving",
 ] as const;
 
 export const TOUR_FREQUENCIES = [
@@ -38,5 +37,4 @@ export const SPACE_TO_AREA = {
 	store: "empresas",
 	construction: "obra",
 	factory: "industria",
-	moving: "mudancas",
 } satisfies Record<TourSpace, AreaSlug>;

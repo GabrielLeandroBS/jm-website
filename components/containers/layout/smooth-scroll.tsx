@@ -10,7 +10,7 @@ export function SmoothScroll({ children }: SmoothScrollProps) {
 	if (shouldReduceMotion) return children;
 
 	return (
-		<ReactLenis root options={{ lerp: 0.09, wheelMultiplier: 0.9 }}>
+		<ReactLenis root options={{ lerp: 0.12, wheelMultiplier: 1 }}>
 			{children}
 		</ReactLenis>
 	);

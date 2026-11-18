@@ -7,7 +7,7 @@
 		"eyebrow": "Sobre nós",
 		"title": "Começou por uma casa.",
 		"nuance": "Nunca precisou de anúncios.",
-		"lead": "A j&m. cresceu como crescem as casas de confiança: de boca em boca, entre quem sabe reconhecer o trabalho bem feito."
+		"lead": "A j&m. cresceu como crescem as casas de confiança: de boca em boca, entre quem sabe reconhecer o trabalho bem feito. Dez anos depois, o método é o mesmo da primeira casa."
 	},
 	"story": {
 		"eyebrow": "A história",
@@ -41,13 +41,13 @@
 		"today": {
 			"label": "Hoje",
 			"title": "Um nome",
-			"body": "Operação nacional. Quem conhece, recomenda."
+			"body": "Dez anos depois, operação nacional. Quem conhece, recomenda."
 		}
 	},
 	"manifesto": {
 		"eyebrow": "Manifesto",
 		"title": "Nunca dissemos que somos os melhores.",
-		"nuance": "Os espaços que limpamos dizem-no por nós.",
+		"nuance": "Deixamos que os espaços falem por nós.",
 		"body": "Há quem grite promoções e estrelas. Nós preferimos o silêncio de um espaço bem cuidado: aquele que ninguém comenta, porque nada falta."
 	},
 	"rules": {
@@ -90,12 +90,59 @@
 		},
 		"continuity": {
 			"title": "Continuidade",
-			"body": "Uma relação, não um serviço. A mesma equipa, todos os anos."
+			"body": "Uma relação, não um serviço avulso. A mesma equipa, sempre que possível."
 		}
 	},
 	"founder": {
 		"quote": "Nunca fizemos publicidade. Fizemos limpezas.",
 		"name": "José Miguel",
 		"role": "CEO e fundador"
+	},
+	"commitments": {
+		"eyebrow": "Compromissos",
+		"title": "O que prometemos",
+		"nuance": "fica por escrito.",
+		"items": {
+			"proposal": {
+				"title": "Proposta fechada",
+				"body": "Cada trabalho começa numa visita e numa proposta escrita, com âmbito e valor definidos. Sem extras no fim."
+			},
+			"team": {
+				"title": "Equipa estável",
+				"body": "Sempre que possível, as mesmas pessoas. Conhece quem entra no seu espaço antes da primeira intervenção."
+			},
+			"schedule": {
+				"title": "Horários cumpridos",
+				"body": "Chegamos à hora marcada e saímos à hora prevista. Qualquer alteração é avisada antes, nunca depois."
+			},
+			"report": {
+				"title": "Registo de tudo",
+				"body": "Antes e depois, fotografias e relatório. Sabe exatamente o que foi feito e quando."
+			},
+			"keys": {
+				"title": "Chaves e acessos",
+				"body": "Entrega e devolução registadas. Só a equipa atribuída tem acesso ao seu espaço."
+			},
+			"discretion": {
+				"title": "Discrição",
+				"body": "Não publicamos nomes de clientes nem fotografias de espaços sem autorização expressa."
+			}
+		}
+	},
+	"coverage": {
+		"eyebrow": "Onde trabalhamos",
+		"title": "Portugal continental.",
+		"nuance": "Por marcação.",
+		"body": "Trabalhamos em todo o continente. A disponibilidade para cada zona é confirmada na marcação, e as intervenções industriais são planeadas com a antecedência necessária para deslocar a equipa e o equipamento certos.",
+		"points": {
+			"booking": "Marcação com antecedência",
+			"visit": "Visita prévia sem compromisso",
+			"industry": "Equipa e equipamento deslocáveis para a indústria"
+		}
+	},
+	"difference": {
+		"eyebrow": "A diferença",
+		"title": "Não dizemos que somos diferentes.",
+		"nuance": "Mostramos onde."
 	}
 }

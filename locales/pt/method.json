@@ -7,7 +7,7 @@
 		"eyebrow": "O Padrão J&M",
 		"title": "Quatro etapas.",
 		"nuance": "Na sala de estar ou na nave industrial.",
-		"lead": "O que muda é a escala. A sequência, os registos e a exigência são sempre os mesmos."
+		"lead": "O que muda é a escala. A sequência, os registos e a exigência são sempre os mesmos — numa sala de estar ou numa linha de produção. É isto que torna o resultado previsível."
 	},
 	"labels": {
 		"step": "Etapa {number, number}",
@@ -26,7 +26,7 @@
 		},
 		"execute": {
 			"title": "Executar",
-			"body": "Equipa formada e certificada, procedimentos escritos e equipamento especializado. Sem pressa e sem atalhos.",
+			"body": "Equipa formada, procedimentos escritos e equipamento especializado. Sem pressa e sem atalhos.",
 			"receives": "Registo do trabalho feito"
 		},
 		"close": {
@@ -55,5 +55,48 @@
 			"title": "Seguro de responsabilidade civil",
 			"body": "[Confirmar apólice e capital seguro antes de publicar]."
 		}
+	},
+	"records": {
+		"eyebrow": "Os registos",
+		"title": "Tudo o que fazemos",
+		"nuance": "fica escrito.",
+		"intro": "Quatro documentos acompanham cada cliente, do primeiro contacto à próxima intervenção.",
+		"items": {
+			"sheet": {
+				"title": "Ficha do espaço",
+				"body": "Superfícies, equipamentos, acessos, riscos e horários. É a memória do espaço e a primeira coisa que a equipa lê."
+			},
+			"proposal": {
+				"title": "Proposta",
+				"body": "Âmbito, equipa, equipamento, janela de intervenção e valor fechado. Uma página, sem letras pequenas."
+			},
+			"log": {
+				"title": "Registo de trabalho",
+				"body": "O que foi feito, por quem e quando. Na indústria, por máquina e por componente."
+			},
+			"report": {
+				"title": "Relatório",
+				"body": "Fotografias antes e depois, observações e a data recomendada para a próxima intervenção."
+			}
+		}
+	},
+	"checklist": {
+		"eyebrow": "Antes de sairmos",
+		"title": "Só saímos",
+		"nuance": "quando não há mais nada a dizer.",
+		"items": {
+			"zones": "Todas as zonas do plano verificadas por uma segunda pessoa",
+			"details": "Rodapés, cantos, calhas e superfícies de contacto revistos",
+			"equipment": "Equipamento recolhido e espaço devolvido como estava",
+			"photos": "Fotografias de antes e depois, no mesmo ângulo",
+			"report": "Relatório ou nota de visita entregue",
+			"next": "Próxima intervenção proposta ou agendada"
+		}
+	},
+	"faq": {
+		"eyebrow": "Sobre o método",
+		"title": "Dúvidas sobre",
+		"nuance": "como trabalhamos.",
+		"cta": "Ver todas as perguntas"
 	}
 }

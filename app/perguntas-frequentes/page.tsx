@@ -3,16 +3,17 @@ import { getTranslations } from "next-intl/server";
 import { CtaBand } from "@/components/containers/common/cta-band";
 import { PageHero } from "@/components/containers/common/page-hero";
 import { FaqGroups } from "@/components/containers/faq/faq-groups";
+import { buildPageMetadata } from "@/lib/utils/page-metadata";
 import { FAQ_ITEM_PATHS } from "@/models/constants/content-keys";
 import { ROUTES } from "@/models/constants/routes";
 
 export async function generateMetadata(): Promise<Metadata> {
 	const t = await getTranslations("faq.meta");
-	return {
+	return buildPageMetadata({
 		title: t("title"),
 		description: t("description"),
-		alternates: { canonical: ROUTES.faq },
-	};
+		path: ROUTES.faq,
+	});
 }
 
 export default async function FaqPage() {

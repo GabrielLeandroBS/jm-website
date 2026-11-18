@@ -3,12 +3,20 @@
 @theme {
 	--color-verde: #0f2e24;
 	--color-verde-deep: var(--color-verde);
-	--color-verde-line: color-mix(in oklab, var(--color-pedra) 22%, var(--color-verde));
+	--color-verde-line: color-mix(
+		in oklab,
+		var(--color-pedra) 22%,
+		var(--color-verde)
+	);
 	--color-verde-muted: var(--color-pedra);
 	--color-verde-label: var(--color-pedra);
 	--color-verde-soft: var(--color-pedra);
 	--color-tinta: #111413;
-	--color-tinta-line: color-mix(in oklab, var(--color-pedra) 16%, var(--color-tinta));
+	--color-tinta-line: color-mix(
+		in oklab,
+		var(--color-pedra) 16%,
+		var(--color-tinta)
+	);
 	--color-tinta-soft: var(--color-pedra);
 	--color-cal: #f5f4ef;
 	--color-papel: #fbfbf8;
@@ -27,7 +35,7 @@
 	--font-mono: var(--font-geist-mono), "Courier New", monospace;
 	--font-display: var(--font-funnel), Arial, sans-serif;
 
-	--text-mega: clamp(3.5rem, 10vw, 10rem);
+	--text-mega: clamp(3rem, 8vw, 8.5rem);
 	--text-mega--line-height: 0.92;
 	--text-display: clamp(3rem, 7vw, 7rem);
 	--text-display--line-height: 0.96;
@@ -108,7 +116,9 @@ html.lenis body {
 	*,
 	*::before,
 	*::after {
+		/* biome-ignore lint/complexity/noImportantStyles: reduced motion must override component animations */
 		animation-duration: 0.01ms !important;
+		/* biome-ignore lint/complexity/noImportantStyles: reduced motion must override component transitions */
 		transition-duration: 0.01ms !important;
 	}
 }

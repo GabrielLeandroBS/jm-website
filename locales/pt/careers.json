@@ -7,7 +7,7 @@
 		"eyebrow": "Trabalhe connosco",
 		"title": "O detalhe é o nosso ofício.",
 		"nuance": "Se também é o seu, fale connosco.",
-		"lead": "Procuramos pessoas cuidadosas, pontuais e discretas. O resto, ensinamos."
+		"lead": "Procuramos pessoas cuidadosas, pontuais e discretas. O resto, ensinamos. Na j&m. trabalha em equipas estáveis, com formação paga, protocolos escritos e horários que se cumprem."
 	},
 	"why": {
 		"eyebrow": "Porquê a j&m.",
@@ -22,6 +22,20 @@
 		"respect": {
 			"title": "Horários respeitados",
 			"body": "Por marcação, para os clientes e para quem trabalha connosco."
+		},
+		"title": "Um trabalho de que",
+		"nuance": "se orgulha.",
+		"contract": {
+			"title": "Condições por escrito",
+			"body": "Contrato, horário e funções definidos antes de começar. Sem surpresas no fim do mês."
+		},
+		"equipment": {
+			"title": "Farda e equipamento",
+			"body": "Fornecemos farda, EPI e equipamento profissional. Ninguém trabalha com material próprio."
+		},
+		"growth": {
+			"title": "Progressão",
+			"body": "Quem domina um domínio pode chefiar uma equipa, formar colegas ou passar à verificação e relatórios."
 		}
 	},
 	"profile": {
@@ -46,6 +60,10 @@
 		"shadow": {
 			"title": "Acompanhamento",
 			"body": "Trabalha com a equipa antes de assumir um cliente."
+		},
+		"onboarding": {
+			"title": "Integração",
+			"body": "Formação no protocolo do domínio, farda e equipamento entregues, e um colega de referência nas primeiras semanas."
 		}
 	},
 	"openings": {
@@ -54,6 +72,97 @@
 	},
 	"apply": {
 		"cta": "Enviar candidatura por email",
-		"subject": "Candidatura espontânea — j&m."
+		"subject": "Candidatura espontânea — j&m.",
+		"eyebrow": "Candidatura",
+		"title": "Uma frase sobre si",
+		"nuance": "chega para começar.",
+		"body": "Envie-nos o nome, o contacto, a zona onde vive e a sua disponibilidade. Currículo, só se tiver. Respondemos a todas as candidaturas.",
+		"checklistTitle": "O que enviar",
+		"checklist": {
+			"name": "Nome e contacto",
+			"zone": "Zona de residência",
+			"availability": "Disponibilidade e horários",
+			"note": "Uma frase sobre si (currículo opcional)"
+		},
+		"whatsapp": "Candidatar pelo WhatsApp",
+		"whatsappMessage": "Olá, gostava de me candidatar a uma vaga na j&m.",
+		"jump": "Candidatar-me"
+	},
+	"roles": {
+		"eyebrow": "Onde pode trabalhar",
+		"title": "Quatro equipas.",
+		"nuance": "Um só padrão.",
+		"items": {
+			"homes": {
+				"title": "Equipa casa & empresas",
+				"body": "Rotinas residenciais e espaços comerciais, muitas vezes fora de horas. Cuidado com materiais, discrição e gestão de chaves."
+			},
+			"construction": {
+				"title": "Equipa obra",
+				"body": "Limpeza pós-obra e remodelações. Trabalho físico, com prazos de entrega e equipamento específico."
+			},
+			"industry": {
+				"title": "Equipa indústria",
+				"body": "Limpeza técnica de máquinas e linhas de produção. Formação em segurança e consignação, trabalho por turnos planeados."
+			},
+			"quality": {
+				"title": "Coordenação e verificação",
+				"body": "Planeamento de equipas, verificação final e preparação de relatórios. Para quem já conhece o padrão por dentro."
+			}
+		}
+	},
+	"firstMonth": {
+		"eyebrow": "O primeiro mês",
+		"title": "Começa acompanhado.",
+		"nuance": "Fica quando está pronto.",
+		"items": {
+			"week1": {
+				"marker": "Semana 1",
+				"title": "Conhecer o padrão",
+				"body": "Apresentação da j&m., do método em quatro etapas e do protocolo do seu domínio. Entrega de farda e equipamento."
+			},
+			"week2": {
+				"marker": "Semana 2",
+				"title": "Acompanhar",
+				"body": "Trabalha ao lado da equipa em clientes reais, sempre com um colega de referência."
+			},
+			"week3": {
+				"marker": "Semana 3",
+				"title": "Fazer, com verificação",
+				"body": "Assume zonas próprias. Cada trabalho é verificado e comentado no fim do dia."
+			},
+			"week4": {
+				"marker": "Semana 4",
+				"title": "Integrar a equipa",
+				"body": "Entra na equipa fixa de um ou mais clientes. A formação continua, agora no terreno."
+			}
+		}
+	},
+	"faq": {
+		"eyebrow": "Perguntas de candidatos",
+		"title": "Antes de se candidatar.",
+		"nuance": "O que costumam perguntar.",
+		"items": {
+			"experience": {
+				"question": "Preciso de experiência em limpeza?",
+				"answer": "Não é obrigatório. Valorizamos cuidado, pontualidade e discrição. A técnica ensinamos nós, em cada domínio."
+			},
+			"license": {
+				"question": "Preciso de carta de condução?",
+				"answer": "Não é obrigatória, mas é valorizada, sobretudo para as equipas de obra e indústria."
+			},
+			"hours": {
+				"question": "Como são os horários?",
+				"answer": "Dependem do domínio. Casa e empresas incluem horários fora do expediente; indústria trabalha em janelas de paragem planeadas com antecedência."
+			},
+			"partTime": {
+				"question": "Há lugares a tempo parcial?",
+				"answer": "Depende das necessidades de cada equipa. Indique a sua disponibilidade na candidatura."
+			},
+			"location": {
+				"question": "Onde vou trabalhar?",
+				"answer": "Trabalhamos em Portugal continental. Sempre que possível, atribuímos clientes perto da sua zona de residência."
+			}
+		}
 	}
 }

@@ -7,7 +7,7 @@
 		"eyebrow": "Equipa",
 		"title": "Nomes próprios.",
 		"nuance": "Sem cargos inflacionados.",
-		"lead": "Quem entra em sua casa ou na sua fábrica é sempre alguém que conhecemos pelo nome — e que o senhor também vai conhecer."
+		"lead": "Quem entra em sua casa ou na sua fábrica é sempre alguém que conhecemos pelo nome — e que o senhor também vai conhecer. Escolhemos com calma, formamos com método e mantemos as equipas estáveis."
 	},
 	"founder": {
 		"eyebrow": "Fundador",
@@ -62,5 +62,75 @@
 		"title": "Gostaria de fazer parte?",
 		"body": "Recebemos candidaturas espontâneas durante todo o ano.",
 		"cta": "Trabalhe connosco"
+	},
+	"day": {
+		"eyebrow": "Um dia de trabalho",
+		"title": "A mesma sequência,",
+		"nuance": "todos os dias.",
+		"items": {
+			"arrive": {
+				"title": "Chegada",
+				"body": "À hora marcada, fardados e com o equipamento do domínio. Ninguém chega sem ter lido a ficha do espaço."
+			},
+			"brief": {
+				"title": "Revisão do plano",
+				"body": "Cinco minutos com o plano da intervenção: zonas, prioridades, cuidados especiais e o que mudou desde a última vez."
+			},
+			"work": {
+				"title": "Execução por zonas",
+				"body": "Cada zona com o seu procedimento escrito. Sem pressa e sem atalhos, do teto ao rodapé."
+			},
+			"check": {
+				"title": "Verificação",
+				"body": "Antes de sair, uma segunda pessoa confere com a lista do domínio. O que não passa, volta a ser feito."
+			},
+			"close": {
+				"title": "Registo",
+				"body": "Fotografias, nota ou relatório e, na indústria, a etiqueta “concluído”. Só então a equipa sai."
+			}
+		}
+	},
+	"training": {
+		"eyebrow": "Formação",
+		"title": "Ninguém improvisa.",
+		"nuance": "Cada domínio tem o seu protocolo.",
+		"items": {
+			"shadow": {
+				"title": "Acompanhamento",
+				"body": "Ninguém trabalha sozinho num cliente antes de acompanhar a equipa e conhecer o padrão j&m. por dentro."
+			},
+			"protocols": {
+				"title": "Protocolos escritos",
+				"body": "Casa, empresas, obra e indústria têm procedimentos próprios, revistos sempre que um espaço nos ensina algo novo."
+			},
+			"materials": {
+				"title": "Materiais e superfícies",
+				"body": "Madeira, pedra, metais, vidro e acabamentos de obra. Que produto usar, e sobretudo qual nunca usar."
+			},
+			"safety": {
+				"title": "Segurança",
+				"body": "EPI, consignação e bloqueio de energia em máquinas, trabalho em altura e manuseamento de produtos."
+			},
+			"conduct": {
+				"title": "Conduta",
+				"body": "Discrição, gestão de chaves e tratamento formal. A forma como se está num espaço também é trabalho."
+			},
+			"review": {
+				"title": "Revisão contínua",
+				"body": "Cada relatório é lido. O que corre bem passa a protocolo; o que corre mal, a formação."
+			}
+		}
+	},
+	"uniform": {
+		"eyebrow": "A farda",
+		"title": "Identificados",
+		"nuance": "antes de dizerem uma palavra.",
+		"body": "A farda é a primeira coisa que o cliente vê. Polo Verde Garrafa para casa e empresas, casaco técnico Tinta para obra e indústria. Logótipo bordado, sem mais nada.",
+		"items": {
+			"clean": "Farda limpa e engomada, todos os dias",
+			"domain": "Calçado e EPI adequados a cada domínio",
+			"equipment": "Equipamento próprio, identificado e mantido",
+			"logo": "Logótipo bordado a uma cor, sem texto adicional"
+		}
 	}
 }

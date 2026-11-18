@@ -35,7 +35,7 @@ export async function CareersProfile() {
 							{tProcess("eyebrow")}
 						</p>
 					</Reveal>
-					<div className="grid gap-10 md:grid-cols-3">
+					<div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
 						{CAREER_PROCESS_KEYS.map((key, index) => (
 							<Reveal key={key} delay={index * 0.08}>
 								<NumberedItem
