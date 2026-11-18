@@ -9,7 +9,7 @@ export async function AboutCoverage() {
 
 	return (
 		<section className="bg-cal py-section">
-			<div className="container-site grid gap-12 lg:grid-cols-2">
+			<div className="container-site grid gap-stack lg:grid-cols-2">
 				<SectionIntro
 					eyebrow={t("eyebrow")}
 					title={t("title")}

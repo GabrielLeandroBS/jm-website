@@ -54,8 +54,8 @@ export default async function AreaPage({ params }: AreaPageProps) {
 			<AreaApproach slug={area} />
 			<IncludedSection />
 			<AreaFaq slug={area} />
-			<section className="bg-cal pt-section">
-				<div className="container-site flex flex-col gap-12">
+			<section className="bg-cal py-section">
+				<div className="container-site flex flex-col gap-stack">
 					<SectionIntro
 						eyebrow={t("labels.otherAreas")}
 						title={t("hero.title")}

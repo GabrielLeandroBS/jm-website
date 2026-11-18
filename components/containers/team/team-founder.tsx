@@ -7,8 +7,8 @@ export async function TeamFounder() {
 	const t = await getTranslations("team.founder");
 
 	return (
-		<section className="bg-cal pb-section">
-			<div className="container-site grid gap-12 lg:grid-cols-5">
+		<section className="bg-cal py-section">
+			<div className="container-site grid gap-stack lg:grid-cols-5">
 				<Reveal className="lg:col-span-2">
 					<div className="flex aspect-4/5 items-end rounded-panel bg-pedra p-6 font-mono text-cinza text-xs uppercase tracking-label">
 						{t("photoAlt")}

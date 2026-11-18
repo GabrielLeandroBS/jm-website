@@ -9,7 +9,7 @@ export async function MethodChecklist() {
 
 	return (
 		<section className="bg-verde py-section text-cal">
-			<div className="container-site grid gap-12 lg:grid-cols-2">
+			<div className="container-site grid gap-stack lg:grid-cols-2">
 				<SectionIntro
 					tone="dark"
 					eyebrow={t("eyebrow")}

@@ -7,8 +7,8 @@ export async function CareersWhy() {
 	const t = await getTranslations("careers.why");
 
 	return (
-		<section className="bg-cal pb-section">
-			<div className="container-site flex flex-col gap-16">
+		<section className="bg-cal py-section">
+			<div className="container-site flex flex-col gap-stack">
 				<SectionIntro
 					eyebrow={t("eyebrow")}
 					title={t("title")}

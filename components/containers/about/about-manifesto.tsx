@@ -10,7 +10,7 @@ export async function AboutManifesto() {
 
 	return (
 		<section className="bg-verde py-section text-cal">
-			<div className="container-site flex flex-col gap-20">
+			<div className="container-site flex flex-col gap-stack">
 				<div className="flex flex-col gap-10">
 					<Reveal>
 						<Eyebrow tone="dark">{t("manifesto.eyebrow")}</Eyebrow>

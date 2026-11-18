@@ -7,8 +7,8 @@ export async function FaqGroups() {
 	const t = await getTranslations("faq.groups");
 
 	return (
-		<section className="bg-cal pb-section">
-			<div className="container-site flex flex-col gap-20">
+		<section className="bg-cal py-section">
+			<div className="container-site flex flex-col gap-stack">
 				{(Object.keys(FAQ_GROUPS) as (keyof typeof FAQ_GROUPS)[]).map(
 					(group) => (
 						<FaqGroup

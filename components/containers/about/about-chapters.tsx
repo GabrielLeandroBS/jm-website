@@ -8,8 +8,8 @@ export async function AboutChapters() {
 	const t = await getTranslations("about.chapters");
 
 	return (
-		<section className="bg-cal pb-section">
-			<div className="container-site flex flex-col gap-10">
+		<section className="bg-cal py-section">
+			<div className="container-site flex flex-col gap-stack">
 				<Reveal>
 					<Eyebrow>{t("eyebrow")}</Eyebrow>
 				</Reveal>

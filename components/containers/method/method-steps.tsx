@@ -7,7 +7,7 @@ export async function MethodSteps() {
 	const t = await getTranslations("method");
 
 	return (
-		<section className="bg-cal pb-section">
+		<section className="bg-cal py-section">
 			<ol className="container-site grid gap-4 md:grid-cols-2">
 				{METHOD_STEPS.map((step, index) => (
 					<li key={step}>

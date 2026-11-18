@@ -8,7 +8,7 @@ export async function TeamTraining() {
 
 	return (
 		<section className="bg-tinta py-section text-cal">
-			<div className="container-site flex flex-col gap-16">
+			<div className="container-site flex flex-col gap-stack">
 				<SectionIntro
 					tone="dark"
 					eyebrow={t("eyebrow")}

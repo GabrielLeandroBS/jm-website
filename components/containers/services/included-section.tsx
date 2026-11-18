@@ -10,7 +10,7 @@ export async function IncludedSection() {
 
 	return (
 		<section className="bg-tinta py-section text-cal">
-			<div className="container-site grid gap-12 lg:grid-cols-2">
+			<div className="container-site grid gap-stack lg:grid-cols-2">
 				<div className="flex flex-col gap-6">
 					<Reveal>
 						<Eyebrow tone="dark">{t("labels.included")}</Eyebrow>

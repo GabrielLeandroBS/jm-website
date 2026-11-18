@@ -8,7 +8,7 @@ export async function TeamJoin() {
 	const t = await getTranslations("team.join");
 
 	return (
-		<section className="bg-cal pb-section">
+		<section className="bg-cal py-section">
 			<div className="container-site">
 				<div className="flex flex-col justify-between gap-10 rounded-panel border border-linha bg-papel px-6 py-12 sm:px-10 md:flex-row md:items-end md:px-16 md:py-16">
 					<Reveal className="flex flex-col gap-4">

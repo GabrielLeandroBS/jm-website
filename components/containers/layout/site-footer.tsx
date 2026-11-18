@@ -14,7 +14,7 @@ import {
 import { areaRoute, ROUTES } from "@/models/constants/routes";
 
 const LINK_CLASS =
-	"transition-colors duration-300 hover:text-cal focus-visible:outline-2 focus-visible:outline-lima";
+	"transition-colors duration-300 hover:text-lima focus-visible:outline-2 focus-visible:outline-lima";
 
 export async function SiteFooter() {
 	const t = await getTranslations("common");
@@ -25,7 +25,7 @@ export async function SiteFooter() {
 
 	return (
 		<footer className="bg-verde text-cal">
-			<div className="container-site flex flex-col gap-20 pt-24 pb-10">
+			<div className="container-site flex flex-col gap-stack pt-section pb-10">
 				<div className="flex flex-col justify-between gap-16 lg:flex-row">
 					<div className="flex max-w-sm flex-col gap-6">
 						<Logo className="self-start text-6xl" />

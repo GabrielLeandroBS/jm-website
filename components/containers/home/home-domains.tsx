@@ -8,8 +8,8 @@ export async function HomeDomains() {
 	const t = await getTranslations("home.domains");
 
 	return (
-		<section className="bg-cal pb-section">
-			<div className="container-site flex flex-col gap-16">
+		<section className="bg-cal py-section">
+			<div className="container-site flex flex-col gap-stack">
 				<div className="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
 					<div className="flex flex-col gap-6">
 						<Reveal>

@@ -38,7 +38,7 @@ export default async function ServicesPage() {
 				nuance={t("nuance")}
 				lead={t("lead")}
 			/>
-			<section className="bg-cal pb-section">
+			<section className="bg-cal py-section">
 				<div className="container-site">
 					<AreaGrid />
 				</div>

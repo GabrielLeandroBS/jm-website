@@ -9,7 +9,7 @@ export async function MethodSafety() {
 
 	return (
 		<section className="bg-verde py-section text-cal">
-			<div className="container-site flex flex-col gap-16">
+			<div className="container-site flex flex-col gap-stack">
 				<SectionIntro
 					eyebrow={t("eyebrow")}
 					title={t("title")}

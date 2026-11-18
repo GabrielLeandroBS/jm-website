@@ -9,8 +9,8 @@ export async function CareersFaq() {
 	const t = await getTranslations("careers.faq");
 
 	return (
-		<section className="bg-cal pb-section">
-			<div className="container-site grid gap-12 lg:grid-cols-3">
+		<section className="bg-cal py-section">
+			<div className="container-site grid gap-stack lg:grid-cols-3">
 				<div className="flex flex-col gap-6 self-start lg:sticky lg:top-32">
 					<Reveal>
 						<Eyebrow>{t("eyebrow")}</Eyebrow>

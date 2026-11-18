@@ -10,7 +10,7 @@ export function CheckList({ items, tone = "light" }: CheckListProps) {
 					key={item}
 					className={cn(
 						"flex items-start gap-4 border-t py-5 text-lg",
-						tone === "light" ? "border-linha" : "border-verde-line",
+						tone === "light" ? "border-linha" : "border-lima/30",
 					)}
 				>
 					<Checkmark

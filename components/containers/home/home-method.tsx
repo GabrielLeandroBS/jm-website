@@ -15,7 +15,7 @@ export async function HomeMethod() {
 
 	return (
 		<section className="bg-tinta py-section text-cal">
-			<div className="container-site grid gap-16 lg:grid-cols-5">
+			<div className="container-site grid gap-stack lg:grid-cols-5">
 				<div className="flex flex-col gap-8 self-start lg:sticky lg:top-32 lg:col-span-2">
 					<Reveal>
 						<Eyebrow tone="dark">{t("eyebrow")}</Eyebrow>

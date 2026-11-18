@@ -9,7 +9,7 @@ export async function MethodRecords() {
 
 	return (
 		<section className="bg-cal py-section">
-			<div className="container-site flex flex-col gap-16">
+			<div className="container-site flex flex-col gap-stack">
 				<SectionIntro
 					eyebrow={t("eyebrow")}
 					title={t("title")}

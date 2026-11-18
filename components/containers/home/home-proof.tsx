@@ -10,8 +10,8 @@ export async function HomeProof() {
 	const t = await getTranslations("home.proof");
 
 	return (
-		<section className="bg-cal pb-section">
-			<div className="container-site flex flex-col gap-14">
+		<section className="bg-cal py-section">
+			<div className="container-site flex flex-col gap-stack">
 				<div className="flex flex-col gap-6">
 					<Reveal>
 						<Eyebrow>{t("eyebrow")}</Eyebrow>

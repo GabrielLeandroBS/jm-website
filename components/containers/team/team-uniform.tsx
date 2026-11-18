@@ -9,7 +9,7 @@ export async function TeamUniform() {
 
 	return (
 		<section className="bg-cal py-section">
-			<div className="container-site grid gap-12 lg:grid-cols-2">
+			<div className="container-site grid gap-stack lg:grid-cols-2">
 				<div className="flex flex-col gap-8">
 					<SectionIntro
 						eyebrow={t("eyebrow")}

@@ -10,7 +10,7 @@ export async function AreaDetail({ slug }: AreaSectionProps) {
 
 	return (
 		<section className="bg-cal py-section">
-			<div className="container-site grid gap-16 lg:grid-cols-5">
+			<div className="container-site grid gap-stack lg:grid-cols-5">
 				<div className="flex flex-col gap-12 lg:col-span-2">
 					<Reveal className="flex flex-col gap-4">
 						<Eyebrow>{t("labels.forWhom")}</Eyebrow>

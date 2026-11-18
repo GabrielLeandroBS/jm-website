@@ -9,7 +9,7 @@ export async function TeamPrinciples() {
 
 	return (
 		<section className="bg-cal py-section">
-			<div className="container-site flex flex-col gap-12">
+			<div className="container-site flex flex-col gap-stack">
 				<Reveal>
 					<Eyebrow>{t("eyebrow")}</Eyebrow>
 				</Reveal>

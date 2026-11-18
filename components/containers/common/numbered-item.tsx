@@ -11,7 +11,7 @@ export function NumberedItem({
 		<div
 			className={cn(
 				"flex flex-col gap-3 border-t pt-6",
-				tone === "light" ? "border-linha" : "border-verde-line",
+				tone === "light" ? "border-linha" : "border-lima/60",
 			)}
 		>
 			<p

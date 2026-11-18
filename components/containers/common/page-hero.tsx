@@ -19,7 +19,7 @@ export function PageHero({
 				tone === "dark" ? "bg-verde text-cal" : "bg-cal text-tinta",
 			)}
 		>
-			<div className="container-site flex flex-col gap-10">
+			<div className="container-site flex flex-col gap-stack">
 				<Reveal>
 					<Eyebrow tone={tone}>{eyebrow}</Eyebrow>
 				</Reveal>

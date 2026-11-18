@@ -13,7 +13,7 @@ export async function HomeDifference({
 
 	return (
 		<section className="bg-cal py-section">
-			<div className="container-site flex flex-col gap-16">
+			<div className="container-site flex flex-col gap-stack">
 				<SectionIntro
 					eyebrow={eyebrow ?? t("eyebrow")}
 					title={title ?? t("title")}

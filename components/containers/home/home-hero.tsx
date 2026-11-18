@@ -54,7 +54,7 @@ export async function HomeHero() {
 					</div>
 					<dl
 						aria-label={t("statsLabel")}
-						className="grid grid-cols-3 gap-4 border-t border-verde-line pt-6"
+						className="grid grid-cols-3 gap-4 border-t border-lima/40 pt-6"
 					>
 						{HERO_STAT_KEYS.map((key) => (
 							<HeroStat

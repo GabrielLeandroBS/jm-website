@@ -12,7 +12,7 @@ export async function AboutValues() {
 
 	return (
 		<section className="bg-cal py-section">
-			<div className="container-site flex flex-col gap-16">
+			<div className="container-site flex flex-col gap-stack">
 				<SectionIntro eyebrow={t("values.eyebrow")} title={t("values.title")} />
 				<ul className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
 					{VALUE_KEYS.map((key, index) => (

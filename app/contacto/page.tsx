@@ -27,8 +27,8 @@ export default async function ContactPage() {
 				nuance={t("nuance")}
 				lead={t("lead")}
 			/>
-			<section className="bg-cal pb-section">
-				<div className="container-site grid gap-16 lg:grid-cols-5">
+			<section className="bg-cal py-section">
+				<div className="container-site grid gap-stack lg:grid-cols-5">
 					<div className="lg:col-span-2">
 						<ContactChannels />
 					</div>

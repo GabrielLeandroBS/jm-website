@@ -3,10 +3,12 @@
 import { Close } from "@carbon/icons-react";
 import { AnimatePresence, motion } from "motion/react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { useEffect } from "react";
 import { Logo } from "@/components/containers/common/logo";
 import { ButtonLink } from "@/components/shared/button-link";
+import { useScrollToTop } from "@/hooks/use-scroll-to-top";
 import {
 	FOOTER_COMPANY_NAV,
 	FOOTER_SUPPORT_NAV,
@@ -23,6 +25,13 @@ const MENU_LINKS = [
 
 export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
 	const t = useTranslations("common");
+	const pathname = usePathname();
+	const scrollToTop = useScrollToTop();
+
+	const handleNavigate = (href: string) => {
+		if (href === pathname) scrollToTop();
+		onClose();
+	};
 
 	useEffect(() => {
 		if (!isOpen) return;
@@ -72,7 +81,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
 							>
 								<Link
 									href={link.href}
-									onClick={onClose}
+									onClick={() => handleNavigate(link.href)}
 									className="font-display text-headline font-bold tracking-display focus-visible:outline-2 focus-visible:outline-lima"
 								>
 									{t(`nav.${link.labelKey}`)}
@@ -81,7 +90,11 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
 						))}
 					</nav>
 					<div className="container-site pb-10">
-						<ButtonLink href={ROUTES.contact} onClick={onClose} size="lg">
+						<ButtonLink
+							href={ROUTES.contact}
+							onClick={() => handleNavigate(ROUTES.contact)}
+							size="lg"
+						>
 							{t("cta.book")}
 						</ButtonLink>
 					</div>

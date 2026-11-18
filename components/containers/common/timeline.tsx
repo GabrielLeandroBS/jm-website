@@ -11,7 +11,7 @@ export function Timeline({ items, tone = "light" }: TimelineProps) {
 						<div
 							className={cn(
 								"grid gap-4 border-t py-8 md:grid-cols-12 md:gap-8",
-								tone === "light" ? "border-linha" : "border-verde-line",
+								tone === "light" ? "border-linha" : "border-lima/40",
 							)}
 						>
 							<p

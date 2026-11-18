@@ -8,7 +8,7 @@ export async function HomeFacts() {
 
 	return (
 		<section className="bg-cal py-section">
-			<ul className="container-site grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
+			<ul className="container-site grid gap-stack sm:grid-cols-2 lg:grid-cols-4">
 				{HOME_FACT_KEYS.map((key, index) => (
 					<li key={key}>
 						<Reveal delay={index * 0.08}>

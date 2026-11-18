@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { CheckList } from "@/components/containers/common/check-list";
+import { Eyebrow } from "@/components/containers/common/eyebrow";
 import { NumberedItem } from "@/components/containers/common/numbered-item";
 import { Reveal } from "@/components/containers/common/reveal";
 import { SectionIntro } from "@/components/containers/common/section-intro";
@@ -14,7 +15,7 @@ export async function CareersProfile() {
 
 	return (
 		<section className="bg-verde py-section text-cal">
-			<div className="container-site flex flex-col gap-20">
+			<div className="container-site flex flex-col gap-stack">
 				<div className="grid gap-12 lg:grid-cols-2">
 					<SectionIntro
 						tone="dark"
@@ -31,9 +32,7 @@ export async function CareersProfile() {
 				</div>
 				<div className="flex flex-col gap-10">
 					<Reveal>
-						<p className="font-mono text-lima text-xs uppercase tracking-label">
-							{tProcess("eyebrow")}
-						</p>
+						<Eyebrow tone="dark">{tProcess("eyebrow")}</Eyebrow>
 					</Reveal>
 					<div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
 						{CAREER_PROCESS_KEYS.map((key, index) => (

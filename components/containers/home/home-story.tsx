@@ -14,12 +14,12 @@ export async function HomeStory() {
 	const tCommon = await getTranslations("common");
 
 	return (
-		<section className="overflow-hidden bg-cal pb-section">
+		<section className="overflow-hidden bg-cal py-section">
 			<Marquee
 				items={AREA_SLUGS.map((slug) => `j&m. ${tAreas(`${slug}.name`)}`)}
 				className="border-y border-linha py-10 text-tinta"
 			/>
-			<div className="container-site grid gap-12 pt-section lg:grid-cols-2">
+			<div className="container-site grid gap-stack pt-stack lg:grid-cols-2">
 				<div className="flex flex-col gap-6">
 					<Reveal>
 						<Eyebrow>{t("eyebrow")}</Eyebrow>

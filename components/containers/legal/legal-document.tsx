@@ -14,7 +14,7 @@ export async function LegalDocument({ document }: LegalDocumentProps) {
 
 	return (
 		<section className="bg-cal pt-44 pb-section">
-			<div className="container-site grid gap-12 lg:grid-cols-3">
+			<div className="container-site grid gap-stack lg:grid-cols-3">
 				<div className="flex flex-col gap-6 lg:sticky lg:top-32 lg:self-start">
 					<h1 className="font-display font-semibold text-headline">
 						{t(`${document}.title`)}
