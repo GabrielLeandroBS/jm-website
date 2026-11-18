@@ -8,7 +8,7 @@ export async function HomeSectors() {
 	return (
 		<section
 			aria-label={t("label")}
-			className="overflow-hidden py-section"
+			className="overflow-hidden pt-3 pb-section"
 		>
 			<Marquee
 				size="sm"
